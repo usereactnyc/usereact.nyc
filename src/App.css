@@ -1,12 +1,12 @@
 html, body {
   background-color: #444444;
+  overflow: hidden;
 }
 
 .App {
   text-align: center;
 }
 
-.App-logo-delayed,
 .App-logo {
   position: absolute;
   top:0;
@@ -17,7 +17,7 @@ html, body {
   margin-bottom: 30px;
 }
 
-.App-logo-delayed {
+.delayed {
   animation-delay: 1.5s;
   opacity:0;
 }
