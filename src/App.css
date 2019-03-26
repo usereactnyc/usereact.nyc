@@ -6,11 +6,20 @@ html, body {
   text-align: center;
 }
 
+.App-logo-delayed,
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  position: absolute;
+  top:0;
+  left:0;
+  animation: App-logo-pulse infinite 4s ease;
   height: 40vmin;
   pointer-events: none;
   margin-bottom: 30px;
+}
+
+.App-logo-delayed {
+  animation-delay: 1.5s;
+  opacity:0;
 }
 
 .App-header {
@@ -20,8 +29,9 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(20px + 2vw);
   color: white;
+  padding: 50px;
 }
 .App-header p {
   line-height: 1.5em;
@@ -32,11 +42,14 @@ html, body {
   text-decoration: none;
 }
 
-@keyframes App-logo-spin {
+
+@keyframes App-logo-pulse {
   from {
-    transform: rotate(0deg);
+    opacity: 0.8;
+    transform: scale(0);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 0;
+    transform: scale(10.0);
   }
 }
