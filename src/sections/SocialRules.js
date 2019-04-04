@@ -5,7 +5,7 @@ const SocialRules = () => (
     <h2>Social Rules</h2>
     <p>
       We would also like to borrow some social rules from the{' '}
-      <a href="https://www.recurse.com/social-rules">Recurse Center.</a>
+      <a href="https://www.recurse.com/">Recurse Center.</a>
     </p>
     <p>
       These help create a friendly, intellectual environment where you can spend

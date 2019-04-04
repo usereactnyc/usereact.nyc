@@ -1,7 +1,8 @@
-html, body {
+html,
+body {
   background-color: #223344;
   color: #fff;
-  margin:0;
+  margin: 0;
 }
 a {
   color: #008cf4;
@@ -10,18 +11,18 @@ a {
 
 .fixed {
   position: absolute;
-  top:0;
-  left:0;
-  right:0;
+  top: 0;
+  left: 0;
+  right: 0;
   bottom: 0;
   overflow: hidden;
 }
 .background {
   .react-logo {
     position: absolute;
-    top:0;
-    left:0;
-    opacity:0;
+    top: 0;
+    left: 0;
+    opacity: 0;
     pointer-events: none;
     height: 60vh;
 
@@ -41,7 +42,7 @@ a {
     }
     &.transition {
       opacity: 0.8;
-      transform: scale(0);  
+      transform: scale(0);
       transition: all 3s ease;
     }
     &.start {
@@ -61,7 +62,6 @@ a {
   scroll-snap-type: y mandatory;
 
   section {
-    
     text-align: center;
     flex: 1 auto;
     align-items: center;
@@ -70,18 +70,19 @@ a {
     margin: 20px;
     border-radius: 20px;
     padding: 40px;
-    Xscroll-snap-align: start;
+    scroll-snap-align: start;
 
     display: flex;
     justify-content: center;
     flex-direction: column;
 
-    ul, p {
+    ul,
+    p {
       text-align: left;
       font-size: 0.8em;
       line-height: 1.5em;
     }
-    h1 {     
+    h1 {
       text-align: center;
     }
     h3 {
@@ -89,7 +90,7 @@ a {
     }
 
     a {
-      color: #223344;
+      color: #00599b;
     }
 
     &:nth-child(odd) {
@@ -97,7 +98,7 @@ a {
     }
 
     &:nth-child(even) {
-      background-color: rgba(255,255,255, 0.6);
+      background-color: rgba(255, 255, 255, 0.6);
       color: black;
     }
 
@@ -151,7 +152,7 @@ a {
             border: solid 6px #fff;
             border-radius: 50%;
             margin-left: 50px;
-            margin-top:10px;
+            margin-top: 10px;
           }
         }
       }
@@ -166,6 +167,6 @@ a {
   }
   to {
     opacity: 0;
-    transform: scale(10.0);
+    transform: scale(10);
   }
 }
