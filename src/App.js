@@ -12,7 +12,7 @@ const sections = [
   [Welcome, 'welcome'],
   [About, 'about'],
   [CodeOfConduct, 'coc'],
-  // [SocialRules, 'social-rules'],
+  [SocialRules, 'social-rules'],
   [Founders, 'founders'],
 ];
 
