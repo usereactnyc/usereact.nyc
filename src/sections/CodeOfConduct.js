@@ -9,7 +9,7 @@ const CodeOfConduct = () => (
       for everyone. We do not tolerate harassment of meetup participants in any
       form. Meetup participants violating these rules may be sanctioned or
       expelled from the meetup at the discretion of the meetup organizers. If
-      this is a paid event they may be expelled without a meetup at the
+      this is a paid event they may be expelled without a refund at the
       discretion of the meetup organizers.
     </p>
 
