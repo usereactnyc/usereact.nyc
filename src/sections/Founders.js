@@ -1,7 +1,7 @@
 import React from 'react';
 import Person from '../components/Person';
-
-const founders = [
+import { shuffle } from '../utils';
+const founders = shuffle([
   {
     name: 'Donavon West',
     twitter: 'donavon',
@@ -26,7 +26,7 @@ const founders = [
     imageUrl:
       'https://pbs.twimg.com/profile_images/802683824840839168/0QIZhM09_400x400.jpg',
   },
-];
+]);
 
 const Founders = () => (
   <div>
