@@ -93,10 +93,10 @@ const SocialRules = () => (
       Subtle -isms are subtle expressions of racism, sexism, ageism, homophobia,
       transphobia and other kinds of bias and prejudice. They are small things
       that make others feel unwelcome, things that we all sometimes do by
-      mistake. Subtle -isms make people feel like they don’t belong at RC. We
-      want to create an environment where everyone can focus all their energy on
-      programming. It’s hard to do that if you’re regularly being made to wonder
-      whether you belong.
+      mistake. Subtle -isms make people feel like they don’t belong at
+      useReactNYC. We want to create an environment where everyone can focus all
+      their energy on programming. It’s hard to do that if you’re regularly
+      being made to wonder whether you belong.
     </p>
 
     <p>
@@ -116,13 +116,13 @@ const SocialRules = () => (
 
     <p>
       There’s another part of no subtle -isms: If you see racism, sexism, etc.
-      outside of RC, please don’t bring it in. For example, please don’t start a
-      discussion about the latest offensive comment from Random Tech Person Y.
-      Everyone who comes to RC should have the same opportunity to focus on
-      programming, and people from oppressed groups often find discussions of
-      racism, sexism, etc. particularly hard to tune out. There are many places
-      to discuss and debate these issues, but there are few where people can
-      avoid them. RC is one of those places.
+      outside of useReactNYC, please don’t bring it in. For example, please
+      don’t start a discussion about the latest offensive comment from Random
+      Tech Person Y. Everyone who comes to useReactNYC should have the same
+      opportunity to focus on programming, and people from oppressed groups
+      often find discussions of racism, sexism, etc. particularly hard to tune
+      out. There are many places to discuss and debate these issues, but there
+      are few where people can avoid them. useReactNYC is one of those places.
     </p>
 
     <h3>How do they work?</h3>
@@ -135,9 +135,9 @@ const SocialRules = () => (
     </p>
 
     <p>
-      The social rules aren’t for punishing people. They help make RC a pleasant
-      environment where you are free to be yourself, tackle things outside your
-      comfort zone, and focus on programming.
+      The social rules aren’t for punishing people. They help make useReactNYC a
+      pleasant environment where you are free to be yourself, tackle things
+      outside your comfort zone, and focus on programming.
     </p>
   </div>
 );
