@@ -5,12 +5,14 @@ import Welcome from './sections/Welcome';
 import About from './sections/About';
 import CodeOfConduct from './sections/CodeOfConduct';
 import Founders from './sections/Founders';
+import SocialRules from './sections/SocialRules';
 import './App.scss';
 
 const sections = [
   [Welcome, 'welcome'],
   [About, 'about'],
   [CodeOfConduct, 'coc'],
+  [SocialRules, 'social-rules'],
   [Founders, 'founders'],
 ];
 
