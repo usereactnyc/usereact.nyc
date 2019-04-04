@@ -21,7 +21,7 @@ const About = () => (
         <a href="https://twitter.com/useReactNYC">@useReactNYC</a>
       </li>
       <li>
-        Join us on <a href="https://www.meetup.com/useReact/">Meetup.com</a>
+        Join us on <a href="https://www.meetup.com/useReactNYC/">Meetup.com</a>
       </li>
     </ul>
   </div>
