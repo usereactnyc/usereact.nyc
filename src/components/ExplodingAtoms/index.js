@@ -7,14 +7,12 @@ const ExplodingAtoms = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setTransition(true);
-    }, 4000);
+    }, 500);
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <div className="fixed background">
-      <img src={logo} className="react-logo animate" alt="react logo" />
-      <img src={logo} className="react-logo animate delayed" alt="react logo" />
       <img
         src={logo}
         className={`react-logo transition ${transition ? 'start' : ''}`}
