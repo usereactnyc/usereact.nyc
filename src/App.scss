@@ -1,0 +1,171 @@
+html, body {
+  background-color: #223344;
+  color: #fff;
+  margin:0;
+}
+a {
+  color: #008cf4;
+  text-decoration: none;
+}
+
+.fixed {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  overflow: hidden;
+}
+.background {
+  .react-logo {
+    position: absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    pointer-events: none;
+    height: 60vh;
+
+    &.animate {
+      left: 25%;
+      top: 50%;
+      animation: logo-explode 1 4s ease;
+      animation-delay: 100ms;
+    }
+    &.infinite {
+      animation: logo-explode infinite 4s ease;
+    }
+    &.delayed {
+      left: 50%;
+      top: 25%;
+      animation-delay: 1.6s;
+    }
+    &.transition {
+      opacity: 0.8;
+      transform: scale(0);  
+      transition: all 3s ease;
+    }
+    &.start {
+      opacity: 0.3;
+      transform: scale(9);
+    }
+  }
+}
+
+.app {
+  overflow: scroll;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: calc(16px + 1.6vw);
+  scroll-snap-type: y mandatory;
+
+  section {
+    
+    text-align: center;
+    flex: 1 auto;
+    align-items: center;
+    line-height: 1.5em;
+    min-height: calc(100vh - 80px);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 40px;
+    Xscroll-snap-align: start;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    ul, p {
+      text-align: left;
+      font-size: 0.8em;
+      line-height: 1.5em;
+    }
+    h1 {     
+      text-align: center;
+    }
+    h3 {
+      text-align: left;
+    }
+
+    a {
+      color: #223344;
+    }
+
+    &:nth-child(odd) {
+      color: white;
+    }
+
+    &:nth-child(even) {
+      background-color: rgba(255,255,255, 0.6);
+      color: black;
+    }
+
+    &#welcome {
+      line-height: 1.5em;
+
+      p {
+        text-align: inherit;
+        font-size: 1em;
+      }
+
+      div.next {
+        font-size: 100px;
+        transform: rotate(90deg);
+        opacity: 0.2;
+        margin-top: 200px;
+      }
+    }
+
+    &#founders {
+      ul {
+        text-align: center;
+        list-style-type: none;
+      }
+      li.person {
+        position: relative;
+        display: inline-block;
+        background-color: #223344;
+        color: white;
+        font-size: 22px;
+        margin: 10px;
+        border-radius: 10px;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        line-height: 1.2em;
+        border-radius: 50%;
+        border: solid 6px #fff;
+
+        a {
+          padding-top: 20px;
+          display: block;
+          color: inherit;
+
+          img {
+            position: absolute;
+            top: 70px;
+            left: 30px;
+            width: 100px;
+            height: 100px;
+            border: solid 6px #fff;
+            border-radius: 50%;
+            margin-left: 50px;
+            margin-top:10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes logo-explode {
+  from {
+    opacity: 0.8;
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(10.0);
+  }
+}

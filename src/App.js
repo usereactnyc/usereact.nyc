@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Section from './components/Section';
+import ExplodingAtoms from './components/ExplodingAtoms';
+import Welcome from './sections/Welcome';
+import About from './sections/About';
+import CodeOfConduct from './sections/CodeOfConduct';
+import Founders from './sections/Founders';
+import './App.scss';
+
+const sections = [
+  [Welcome, 'welcome'],
+  [About, 'about'],
+  [CodeOfConduct, 'coc'],
+  [Founders, 'founders'],
+];
 
 const App = () => (
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <img src={logo} className="App-logo delayed" alt="logo" />
-      <p>
-        Welcome to the future home of{' '}
-        <a
-          className="App-link"
-          href="https://twitter.com/useReactNYC"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @useReactNYC
-        </a>
-      </p>
-    </header>
-  </div>
+  <>
+    <ExplodingAtoms />
+    <div className="fixed">
+      <div className="app">
+        {sections.map(([Component, hash], i) => (
+          <Section section={hash} nextSection={(sections[i + 1] || [])[1]}>
+            <Component />
+          </Section>
+        ))}
+      </div>
+    </div>
+  </>
 );
 
 export default App;

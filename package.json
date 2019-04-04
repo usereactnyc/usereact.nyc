@@ -1,8 +1,9 @@
 {
   "name": "usereactnyc.github.io",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@use-it/event-listener": "^0.1.2",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"
