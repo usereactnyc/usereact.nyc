@@ -28,7 +28,7 @@ const SocialRules = () => (
     </blockquote>
     <p>
       A well-actually is when you correct someone about something that’s not
-      relevant to the conversation or tangential to what they’re trying to say.1
+      relevant to the conversation or tangential to what they’re trying to say.
       They’re bad because they aren’t helpful, break the flow of conversation,
       and focus attention on the person making the well actually.
     </p>
@@ -122,7 +122,7 @@ const SocialRules = () => (
       programming, and people from oppressed groups often find discussions of
       racism, sexism, etc. particularly hard to tune out. There are many places
       to discuss and debate these issues, but there are few where people can
-      avoid them. RC is one of those places.2
+      avoid them. RC is one of those places.
     </p>
 
     <h3>How do they work?</h3>
