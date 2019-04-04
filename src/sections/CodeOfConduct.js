@@ -65,13 +65,28 @@ const CodeOfConduct = () => (
     <h3>Resources</h3>
 
     <ul>
-      <li>Email address for organizers organizers@usereact.nyc</li>
-      <li>Phone number for organizers 914-297-8806</li>
-      <li>Local law enforcement, emergency 911</li>
-      <li>Local law enforcement, non-emergency 311</li>
-      <li>Local sexual assault hotline 800-621-HOPE (4673) or dial 311</li>
-      <li>Local medical, emergency 911</li>
-      <li>Local medical, non-emergency 311</li>
+      <li>
+        Email address for organizers <b>organizers@usereact.nyc</b>
+      </li>
+      <li>
+        Phone number for organizers <b>914-297-8806</b>
+      </li>
+      <li>
+        Local law enforcement, emergency <b>911</b>
+      </li>
+      <li>
+        Local law enforcement, non-emergency <b>311</b>
+      </li>
+      <li>
+        Local sexual assault hotline <b>800-621-HOPE (4673)</b> or dial{' '}
+        <b>311</b>
+      </li>
+      <li>
+        Local medical, emergency <b>911</b>
+      </li>
+      <li>
+        Local medical, non-emergency <b>311</b>
+      </li>
     </ul>
   </div>
 );
