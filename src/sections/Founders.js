@@ -29,10 +29,14 @@ const founders = shuffle([
 ]);
 
 const Founders = () => (
-  <div>
+  <>
     <h2>No really. Who are the organizers?</h2>
-    <ul>{founders.map(Person)}</ul>
-  </div>
+    <ul>
+      {founders.map(founder => (
+        <Person {...founder} key={founder.name} />
+      ))}
+    </ul>
+  </>
 );
 
 export default Founders;

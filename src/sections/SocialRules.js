@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SocialRules = () => (
-  <div className="about">
+  <>
     <h2>Social Rules</h2>
     <p>
       We would also like to borrow some social rules from the{' '}
@@ -10,12 +10,14 @@ const SocialRules = () => (
     <p>
       These help create a friendly, intellectual environment where you can spend
       as much of your energy as possible on programming. The social rules are:
-      <ol>
-        <li>No well-actually’s</li>
-        <li>No feigned surprise</li>
-        <li>No backseat driving</li>
-        <li>No subtle -isms</li>
-      </ol>
+    </p>
+    <ul>
+      <li>No well-actually’s</li>
+      <li>No feigned surprise</li>
+      <li>No backseat driving</li>
+      <li>No subtle -isms</li>
+    </ul>
+    <p>
       One thing that often confuses people about the social rules is that we
       expect people to break them from time to time. This means they’re
       different and totally separate from our code of conduct.
@@ -139,7 +141,7 @@ const SocialRules = () => (
       pleasant environment where you are free to be yourself, tackle things
       outside your comfort zone, and focus on programming.
     </p>
-  </div>
+  </>
 );
 
 export default SocialRules;

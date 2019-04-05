@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Section = ({ section, nextSection, children }) => (
-  <section id={`${section}`}>
+const Section = ({ className, children, nextSection, section }) => (
+  <section id={`${section}`} className={className}>
     {children}
     {'' && nextSection && (
       <div>
