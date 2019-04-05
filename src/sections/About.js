@@ -1,7 +1,8 @@
 import React from 'react';
+import CFP from './CFP';
 
 const About = () => (
-  <div>
+  <>
     <h2>What is useReact.NYC?</h2>
     <p>
       Well… you are! useReact.NYC is about the React community right here in New
@@ -24,7 +25,8 @@ const About = () => (
         Join us on <a href="https://www.meetup.com/useReactNYC/">Meetup.com</a>
       </li>
     </ul>
-  </div>
+    <CFP />
+  </>
 );
 
 export default About;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CFP = () => (
-  <div className="about">
+  <>
     <h2>Call For Proposals!</h2>
     <p>
       Interested in speaking? Fill out{' '}
@@ -10,6 +10,6 @@ const CFP = () => (
       </a>{' '}
       and we'll get in touch.
     </p>
-  </div>
+  </>
 );
 export default CFP;

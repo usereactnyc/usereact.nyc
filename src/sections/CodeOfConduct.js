@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CodeOfConduct = () => (
-  <div className="about">
+  <>
     <h2>Code of Conduct</h2>
 
     <p>
@@ -88,7 +88,7 @@ const CodeOfConduct = () => (
         Local medical, non-emergency <b>311</b>
       </li>
     </ul>
-  </div>
+  </>
 );
 
 export default CodeOfConduct;

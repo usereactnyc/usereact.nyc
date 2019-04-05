@@ -70,7 +70,6 @@ a {
     margin: 20px;
     border-radius: 20px;
     padding: 40px;
-    xscroll-snap-align: start;
 
     display: flex;
     justify-content: center;
@@ -168,5 +167,32 @@ a {
   to {
     opacity: 0;
     transform: scale(10);
+  }
+}
+
+@media (min-width: 1024px) {
+  .app {
+    section {
+      margin: 0 auto;
+      max-width: 900px;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .app {
+    section {
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+  }
+}
+
+@media (min-width: 2560px) {
+  .app {
+    section {
+      margin: 0 auto;
+      max-width: 1600px;
+    }
   }
 }
