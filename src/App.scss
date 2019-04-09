@@ -52,6 +52,18 @@ a {
   }
 }
 
+@media screen and (prefers-reduced-motion: reduce) {
+  .background {
+    .react-logo {
+      &.transition {
+        opacity: 0.3;
+        transform: scale(9);
+        transition: none;
+      }
+    }
+  }  
+}
+
 .app {
   overflow: scroll;
   position: relative;
