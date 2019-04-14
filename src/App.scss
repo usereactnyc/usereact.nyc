@@ -61,7 +61,7 @@ a {
         transition: none;
       }
     }
-  }  
+  }
 }
 
 .app {
@@ -71,7 +71,6 @@ a {
   display: flex;
   flex-flow: row wrap;
   font-size: calc(16px + 1.6vw);
-  scroll-snap-type: y mandatory;
 
   section {
     text-align: center;
