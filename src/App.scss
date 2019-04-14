@@ -66,6 +66,7 @@ a {
 
 .app {
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   position: relative;
   height: 100vh;
   display: flex;
