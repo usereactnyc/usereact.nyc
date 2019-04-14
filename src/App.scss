@@ -61,17 +61,17 @@ a {
         transition: none;
       }
     }
-  }  
+  }
 }
 
 .app {
   overflow: scroll;
+  -webkit-overflow-scrolling: touch;
   position: relative;
   height: 100vh;
   display: flex;
   flex-flow: row wrap;
   font-size: calc(16px + 1.6vw);
-  scroll-snap-type: y mandatory;
 
   section {
     text-align: center;
