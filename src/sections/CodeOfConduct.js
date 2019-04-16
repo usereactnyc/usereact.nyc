@@ -24,7 +24,7 @@ const CodeOfConduct = () => (
     </p>
 
     <p>
-      Exhibitors and speakers at any useReactNYC event also subject to the
+      Exhibitors and speakers at any useReactNYC event are also subject to the
       anti-harassment policy. In particular, exhibitors/speakers should not use
       sexualized images, activities, or other material. Staff (including
       volunteers) should not use sexualized clothing/uniforms/costumes, or
