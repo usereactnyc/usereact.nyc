@@ -44,10 +44,8 @@ const CodeOfConduct = () => (
     </p>
 
     <p>
-      useReactNYC has an additional rule of no videotaping or photography
-      without prior permission. If you wish to photograph, film or record any
-      attendee, including speakers, you must first ask for their permission to
-      do so.
+      useReactNYC reserves the right to prohibit videotaping or photography
+      for any meetup participant.
     </p>
 
     <p>
