@@ -181,9 +181,8 @@ a {
     height: 50px;
     line-height: 50px;
     font-size: 30px;
-    &::placeholder {
-      padding: 20px;
-    }
+    padding: 20px;
+    box-sizing: border-box;
   }
 
   button {
