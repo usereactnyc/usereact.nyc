@@ -1,0 +1,14 @@
+{
+  "name": "request-slack-invite",
+  "version": "1.0.0",
+  "description": "Netlify function using legacy Slack tokens.",
+  "main": "request-slack-invite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

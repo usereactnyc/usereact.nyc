@@ -6,12 +6,14 @@ import About from './sections/About';
 import CodeOfConduct from './sections/CodeOfConduct';
 import Founders from './sections/Founders';
 import SocialRules from './sections/SocialRules';
+import Slack from './sections/Slack';
 
 import './App.scss';
 
 const sections = [
   [Welcome, 'welcome'],
   [About, 'about'],
+  [Slack, 'slack'],
   [CodeOfConduct, 'coc'],
   [SocialRules, 'social-rules'],
   [Founders, 'founders'],
