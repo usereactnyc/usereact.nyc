@@ -24,6 +24,14 @@ const About = () => (
       <li>
         Join us on <a href="https://www.meetup.com/useReactNYC/">Meetup.com</a>
       </li>
+      <li>
+        Support us on our{' '}
+        <a href="https://opencollective.com/usereact">Open Collective</a>
+      </li>
+      <li>
+        Get in touch at{' '}
+        <a href="mailto:organizers@usereact.nyc">organizers@usereact.nyc</a>
+      </li>
     </ul>
     <CFP />
   </>
