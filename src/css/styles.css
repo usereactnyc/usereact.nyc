@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+:root {
+  --color-blue: #5776bf;
+  --color-grey: #797a80;
+  --color-light-grey: #f8f8f8;
+  --color-purple: #5a84e8;
+
+  --color-gradient-blue: #61dafb;
+  --color-gradient-purple: #618efb;
+
+  --color-twitter-blue: #55acee;
+  --color-meetup-red: #ed1c40;
+
+  --color-button-text: #3a579b;
+  --color-hyperlink: var(--color-purple);
+  --color-hyperlink-hover: #486aba;
+}
+
+body {
+  font-family: Rubik, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--color-grey);
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-blue);
+}
+
+h1,
+h2,
+h3,
+.subhead {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 44px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.subhead {
+  font-size: 28px;
+}
+
+.ui.button {
+  background-color: white;
+  color: var(--color-button-text);
+}
+
+.ui.button:hover {
+  opacity: 75%;
+}
+
+a {
+  color: var(--color-hyperlink);
+}
+
+a:hover {
+  color: var(--color-hyperlink-hover);
+}
+
+.hero {
+  background-image: url("../assets/hero-bg@2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.hero-text {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.hero-text h1 {
+  color: white;
+}
+
+.hero-text h2 {
+  color: white;
+}
+
+.side-by-side {
+  display: flex;
+}
+
+.side-by-side img {
+  max-width: 544px;
+}
+
+.section {
+  padding: 120px 130px;
+}
+
+.text-group {
+  padding: 0 70px;
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3,
+  .subhead {
+    line-height: 1.25;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .subhead {
+    font-size: 22px;
+  }
+}
