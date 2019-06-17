@@ -3,7 +3,7 @@
 
 import * as React from "react";
 import Helmet from "react-helmet";
-import favicon from "../public/icons/favicon.ico";
+import favicon from "./assets/favicon.ico";
 
 const config = require("../gatsby-config.js");
 

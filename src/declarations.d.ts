@@ -24,4 +24,9 @@ declare module "*.svg" {
   export default content;
 }
 
+declare module "*.ico" {
+  const content: any;
+  export default content;
+}
+
 declare const graphql: (query: TemplateStringsArray) => void;
