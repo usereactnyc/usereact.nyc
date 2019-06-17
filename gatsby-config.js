@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `useReactNYC`,
-    googleVerification: `abcdefz`,
-    disqus: `gatsby-typescript`
+    googleVerification: `abcdefz`
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
