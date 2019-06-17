@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `My website`,
+    title: `useReactNYC`,
     googleVerification: `abcdefz`,
-    disqus: `gatsby-typescript`,
+    disqus: `gatsby-typescript`
   },
   mapping: {
-    "MarkdownRemark.frontmatter.author": `AuthorJson`,
+    'MarkdownRemark.frontmatter.author': `AuthorJson`
   },
   plugins: [
     // Expose `/data` to graphQL layer
@@ -13,21 +13,21 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
-        path: `${__dirname}/data`,
-      },
+        path: `${__dirname}/data`
+      }
     },
 
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
+        trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
         // Puts tracking script in the head instead of the body
         head: false,
         // Setting this parameter is optional
         anonymize: true,
         // Setting this parameter is also optional
-        respectDNT: true,
-      },
+        respectDNT: true
+      }
     },
 
     // Parse all markdown files (each plugin add/parse some data into graphQL layer)
@@ -39,14 +39,14 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 690,
-              backgroundColor: `#f7f0eb`,
-            },
+              backgroundColor: `#f7f0eb`
+            }
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-autolink-headers`,
-        ],
-      },
+          `gatsby-remark-autolink-headers`
+        ]
+      }
     },
 
     // Parse all images files
@@ -71,8 +71,8 @@ module.exports = {
         start_url: `/`,
         background_color: `#f7f7f7`,
         theme_color: `#191919`,
-        display: `minimal-ui`,
-      },
+        display: `minimal-ui`
+      }
     },
     /* eslint-enable camelcase */
 
@@ -80,6 +80,6 @@ module.exports = {
     // html file so the site works offline and is otherwise
     // resistant to bad networks. Works with almost any
     // site!
-    `gatsby-plugin-offline`,
-  ],
+    `gatsby-plugin-offline`
+  ]
 };
