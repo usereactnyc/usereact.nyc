@@ -8,15 +8,6 @@ module.exports = {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
   },
   plugins: [
-    // Expose `/data` to graphQL layer
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `${__dirname}/data`
-      }
-    },
-
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -73,13 +64,6 @@ module.exports = {
         theme_color: `#191919`,
         display: `minimal-ui`
       }
-    },
-    /* eslint-enable camelcase */
-
-    // This plugin generates a service worker and AppShell
-    // html file so the site works offline and is otherwise
-    // resistant to bad networks. Works with almost any
-    // site!
-    `gatsby-plugin-offline`
+    }
   ]
 };
