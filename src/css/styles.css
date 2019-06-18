@@ -75,6 +75,20 @@ a:hover {
   color: var(--color-hyperlink-hover);
 }
 
+.footer-container {
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right,#61DAFB, #618EFB);
+  display: flex;
+  min-height: 150px;
+  /* text-align: center; */
+  width: 100vw;
+}
+
+.footer-container img {
+  padding: 10px;
+}
+
 .hero {
   background-image: url("../assets/hero-bg@2x.jpg");
   background-size: cover;
