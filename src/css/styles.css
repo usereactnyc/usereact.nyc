@@ -32,10 +32,10 @@ h3 {
   color: var(--color-blue);
 }
 
+.subhead,
 h1,
 h2,
-h3,
-.subhead {
+h3 {
   line-height: 1.2;
 }
 
@@ -92,6 +92,7 @@ a:hover {
   max-width: 680px;
   margin: 0 auto;
 }
+
 .hero-text h1 {
   color: white;
 }
@@ -116,19 +117,21 @@ a:hover {
   padding: 0 70px;
 }
 
-@media only screen and (max-width: 767px) {
+.text-group h2 {
+  margin: 0 auto;
+  text-align: center;
 }
-
+@media only screen and (max-width: 767px) {}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
     font-size: 18px;
     line-height: 1.5;
   }
 
+  .subhead,
   h1,
   h2,
-  h3,
-  .subhead {
+  h3 {
     line-height: 1.25;
   }
 
