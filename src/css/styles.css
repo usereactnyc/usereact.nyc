@@ -32,10 +32,10 @@ h3 {
   color: var(--color-blue);
 }
 
+.subhead,
 h1,
 h2,
-h3,
-.subhead {
+h3 {
   line-height: 1.2;
 }
 
@@ -75,6 +75,29 @@ a:hover {
   color: var(--color-hyperlink-hover);
 }
 
+.centered-text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-container {
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, var(--color-gradient-blue), var(--color-gradient-purple));
+  display: flex;
+  min-height: 150px;
+  /* text-align: center; */
+  width: 100vw;
+}
+
+.footer-container img {
+  padding: 10px;
+}
+
+.footer-container img:hover {
+  transform: scale(1.05);
+}
+
 .hero {
   background-image: url("../assets/hero-bg@2x.jpg");
   background-size: cover;
@@ -92,12 +115,29 @@ a:hover {
   max-width: 680px;
   margin: 0 auto;
 }
+
 .hero-text h1 {
   color: white;
 }
 
 .hero-text h2 {
   color: white;
+}
+
+.organizers-ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.organizers-ul li {
+  min-width: 50px;
+  padding: 20px;
+}
+
+.organizers-ul li img {
+  max-width: 100%;
 }
 
 .side-by-side {
@@ -108,6 +148,11 @@ a:hover {
   max-width: 544px;
 }
 
+.span-text-link {
+  color: var(--color-hyperlink);
+  text-decoration: underline;
+}
+
 .section {
   padding: 120px 130px;
 }
@@ -115,20 +160,26 @@ a:hover {
 .text-group {
   padding: 0 70px;
 }
+@media only screen and (max-width: 1300px) {
+  .section {
+    padding: 90px 100px;
+  }
 
-@media only screen and (max-width: 767px) {
+  .side-by-side img {
+    max-width: 444px;
+  }
 }
-
+@media only screen and (max-width: 767px) {}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
     font-size: 18px;
     line-height: 1.5;
   }
 
+  .subhead,
   h1,
   h2,
-  h3,
-  .subhead {
+  h3 {
     line-height: 1.25;
   }
 
@@ -144,7 +195,52 @@ a:hover {
     font-size: 18px;
   }
 
+  .section {
+    padding: 70px 85px;
+  }
+
+  .side-by-side img {
+    max-width: 333px;
+  }
+
   .subhead {
     font-size: 22px;
+  }
+
+  .text-group {
+    padding: 0 70px;
+  }
+}
+/* TODO: Standardize how we handle media queries in CSS */
+@media only screen and (max-width: 767px) {
+  .section {
+    padding: 50px 65px;
+  }
+
+  .side-by-side img {
+    max-width: 250px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .section {
+    padding: 20px 40px;
+  }
+
+  .side-by-side {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .side-by-side img {
+    max-width: 350px;
+  }
+
+  .text-group {
+    padding: 0 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .side-by-side img {
+    max-width: 300px;
   }
 }
