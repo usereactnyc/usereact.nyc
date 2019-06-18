@@ -123,6 +123,12 @@ a:hover {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
+  text-align: center;
+}
+
+.organizers-ul li {
+  min-width: 50px;
+  padding: 20px;
 }
 
 .organizers-ul li img {
