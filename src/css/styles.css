@@ -198,6 +198,7 @@ a:hover {
     padding: 0 70px;
   }
 }
+/* TODO: Standardize how we handle media queries in CSS */
 @media only screen and (max-width: 767px) {
   .section {
     padding: 50px 65px;
