@@ -121,6 +121,11 @@ a:hover {
   margin: 0 auto;
   text-align: center;
 }
+@media only screen and (max-width: 1300px) {
+  .section {
+    padding: 90px 100px;
+  }
+}
 @media only screen and (max-width: 767px) {}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
@@ -147,7 +152,25 @@ a:hover {
     font-size: 18px;
   }
 
+  .section {
+    padding: 70px 85px;
+  }
+
   .subhead {
     font-size: 22px;
+  }
+
+  .text-group {
+    padding: 0 70px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section {
+    padding: 50px 65px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .section {
+    padding: 20px 40px;
   }
 }
