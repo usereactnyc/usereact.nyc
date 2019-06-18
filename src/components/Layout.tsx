@@ -1,4 +1,5 @@
 import * as React from "react";
+import Footer from "./Footer";
 import "../css/responsive.css";
 import "../css/styles.css";
 
@@ -16,7 +17,7 @@ const Layout = (props: LayoutProps) => {
       <div style={{ paddingBottom: 60 }}>{props.children}</div>
 
       {/* Footer */}
-      <footer />
+      <Footer />
     </>
   );
 };
@@ -24,7 +25,7 @@ const Layout = (props: LayoutProps) => {
 export default Layout;
 
 export const withLayout = <P extends object>(
-  WrappedComponent: React.ComponentType<P>,
+  WrappedComponent: React.ComponentType<P>
 ) =>
   class WithLayout extends React.Component<P & LayoutProps> {
     render() {
