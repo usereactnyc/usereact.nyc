@@ -78,7 +78,7 @@ a:hover {
 .footer-container {
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right,#61DAFB, #618EFB);
+  background: linear-gradient(to right, var(--color-gradient-blue), var(--color-gradient-purple));
   display: flex;
   min-height: 150px;
   /* text-align: center; */
