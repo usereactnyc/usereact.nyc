@@ -4,7 +4,7 @@ import socialTwitter from "../assets/social-twitter.svg";
 
 export default () => {
   return (
-    <div className="footer-container">
+    <footer className="footer-container">
       <a
         href="https://twitter.com/useReactnyc"
         rel="noopener noreferrer"
@@ -19,6 +19,6 @@ export default () => {
       >
         <img src={socialMeetup} />
       </a>
-    </div>
+    </footer>
   );
 };
