@@ -10,7 +10,7 @@ export default () => {
   return (
     <Section>
       <TextGroup>
-        <h2>The Organizers</h2>
+        <h2 className="centered-text">The Organizers</h2>
       </TextGroup>
       <ul className="organizers-ul">
         <li>
