@@ -89,6 +89,10 @@ a:hover {
   padding: 10px;
 }
 
+.footer-container img:hover {
+  transform: scale(1.05);
+}
+
 .hero {
   background-image: url("../assets/hero-bg@2x.jpg");
   background-size: cover;
@@ -113,6 +117,16 @@ a:hover {
 
 .hero-text h2 {
   color: white;
+}
+
+.organizers-ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.organizers-ul li img {
+  max-width: 100%;
 }
 
 .side-by-side {
