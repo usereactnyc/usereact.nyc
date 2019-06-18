@@ -1,5 +1,5 @@
 import * as React from "react";
-import donovan2 from "../../assets/donovan@2x.png";
+import donavon2 from "../../assets/donavon@2x.png";
 import harry2 from "../../assets/harry@2x.png";
 import jenn2 from "../../assets/jenn@2x.png";
 import matthew2 from "../../assets/matthew@2x.png";
@@ -14,7 +14,7 @@ export default () => {
       </TextGroup>
       <ul className="organizers-ul">
         <li>
-          <img src={donovan2} /> <p>Donovan</p>
+          <img src={donavon2} /> <p>Donavon</p>
         </li>
         <li>
           <img src={harry2} /> <p>Harry</p>
