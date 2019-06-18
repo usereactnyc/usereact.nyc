@@ -75,6 +75,11 @@ a:hover {
   color: var(--color-hyperlink-hover);
 }
 
+.centered-text {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .footer-container {
   align-items: center;
   justify-content: center;
@@ -149,11 +154,6 @@ a:hover {
 
 .text-group {
   padding: 0 70px;
-}
-
-.text-group h2 {
-  margin: 0 auto;
-  text-align: center;
 }
 @media only screen and (max-width: 1300px) {
   .section {

@@ -13,14 +13,13 @@ export default () => {
           <TextGroup>
             <h2>Social Rules</h2>
             <p>
-              We would also like to borrow the Social Rules from the{" "}
+              We would also like to borrow the Social Rules from the
               <a
-                href="https://www.recurse.com/manual#sub-sec-social-rules"
+                href="https://www.recurse.com/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                {" "}
-                Recurse Center{" "}
+                Recurse Center
               </a>
             </p>
             <ul>
@@ -29,7 +28,22 @@ export default () => {
               <li>No backseat driving</li>
               <li>No subtle-isms</li>
             </ul>
-            <p>For full descripiptions please see .</p>
+            <p>
+              For full descriptions please see RC's{" "}
+              <a
+                href="https://www.recurse.com/manual#sub-sec-social-rules"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Social Rules page
+              </a>
+              .
+            </p>
+            <p>
+              Like RC, these rules are not a hard contract. They are designed to
+              encourage a fun, welcoming, meetup where everyone can enjoy
+              themselves.
+            </p>
           </TextGroup>
         )}
       />

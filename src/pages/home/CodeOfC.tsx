@@ -6,7 +6,7 @@ export default () => {
   return (
     <Section>
       <TextGroup>
-        <h2>Code of Conduct</h2>
+        <h2 className="centered-text">Code of Conduct</h2>
         <p>
           useReactNYC is dedicated to providing a harassment-free meetup
           experience for everyone. We do not tolerate harassment of meetup
