@@ -1,9 +1,9 @@
 import * as React from "react";
 
-type SideBySideProps = {
+interface SideBySideProps {
   left: () => React.ReactNode;
   right: () => React.ReactNode;
-};
+}
 
 export default ({ left, right }: SideBySideProps) => {
   return (

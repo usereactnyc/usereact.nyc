@@ -13,7 +13,7 @@ export default () => {
           <TextGroup>
             <h2>Social Rules</h2>
             <p>
-              We would also like to borrow the Social Rules from the
+              We would also like to borrow the Social Rules from the{" "}
               <a
                 href="https://www.recurse.com/"
                 rel="noopener noreferrer"
@@ -21,6 +21,7 @@ export default () => {
               >
                 Recurse Center
               </a>
+              .
             </p>
             <ul>
               <li>no well actually's</li>
