@@ -108,6 +108,7 @@ a:hover {
   justify-content: center;
   background: linear-gradient(to right, var(--color-gradient-blue), var(--color-gradient-purple));
   display: flex;
+  flex-direction: column;
   min-height: 150px;
   /* text-align: center; */
   width: 100vw;
@@ -120,6 +121,13 @@ a:hover {
 
 .footer-container img:hover {
   transform: scale(1.1);
+}
+
+.footer-copyright {
+  color: var(--color-light-grey);
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 .hero {
