@@ -1,5 +1,6 @@
 import * as React from "react";
 import { withLayout, LayoutProps } from "../components/Layout";
+import CallForProposals from "./home/CallForProposals";
 import CodeOfC from "./home/CodeOfC";
 import Header from "./home/Header";
 import Organizers from "./home/Organizers";
@@ -11,6 +12,7 @@ const IndexPage = (props: LayoutProps) => (
   <div>
     <Header />
     <WhatIs />
+    <CallForProposals />
     <CodeOfC />
     <Resources />
     <SocialRules />
