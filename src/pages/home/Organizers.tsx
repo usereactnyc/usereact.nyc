@@ -14,16 +14,49 @@ export default () => {
       </TextGroup>
       <ul className="organizers-ul">
         <li>
-          <img src={donavon2} /> <p>Donavon</p>
+          <a
+            href="https://twitter.com/donavon"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div>
+              <img src={donavon2} />
+              <p>Donavon West</p>
+            </div>
+          </a>
         </li>
         <li>
-          <img src={harry2} /> <p>Harry</p>
+          <a
+            href="https://twitter.com/hswolff"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div>
+              <img src={harry2} /> <p>Harry Wolff</p>
+            </div>
+          </a>
         </li>
         <li>
-          <img src={jenn2} /> <p>Jennifer</p>
+          <a
+            href="https://twitter.com/gurlcode"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div>
+              <img src={jenn2} /> <p>Jenn Creighton</p>
+            </div>
+          </a>
         </li>
         <li>
-          <img src={matthew2} /> <p>Matthew</p>
+          <a
+            href="https://twitter.com/MatthewGerstman"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div>
+              <img src={matthew2} /> <p>Matthew Gerstman</p>
+            </div>
+          </a>
         </li>
       </ul>
     </Section>

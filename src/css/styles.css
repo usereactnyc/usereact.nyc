@@ -92,10 +92,11 @@ a:hover {
 
 .footer-container img {
   padding: 10px;
+  transition-duration: .25s;
 }
 
 .footer-container img:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .hero {
@@ -131,6 +132,10 @@ a:hover {
   text-align: center;
 }
 
+.organizers-ul a {
+  text-decoration: none;
+}
+
 .organizers-ul li {
   min-width: 50px;
   padding: 20px;
@@ -138,6 +143,21 @@ a:hover {
 
 .organizers-ul li img {
   max-width: 100%;
+  transition-duration: .5s;
+}
+
+.organizers-ul li img:hover {
+  transform: scale(1.05);
+}
+
+.organizers-ul p {
+  color: var(--color-grey);
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.organizers-ul p:hover {
+  color: var(--color-hyperlink-hover);
 }
 
 .side-by-side {
@@ -196,7 +216,7 @@ a:hover {
   }
 
   .section {
-    padding: 70px 85px;
+    padding: 70px 50px;
   }
 
   .side-by-side img {
@@ -208,11 +228,32 @@ a:hover {
   }
 
   .text-group {
-    padding: 0 70px;
+    padding: 0 40px;
   }
 }
 /* TODO: Standardize how we handle media queries in CSS */
 @media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  li,
+  p {
+    font-size: 14px;
+  }
+
+  .organizers-ul {
+    padding: 0;
+  }
+
   .section {
     padding: 50px 65px;
   }
@@ -220,6 +261,11 @@ a:hover {
   .side-by-side img {
     max-width: 250px;
   }
+
+  .text-group {
+    padding: 0 20px;
+  }
+
 }
 @media only screen and (max-width: 650px) {
   .section {
