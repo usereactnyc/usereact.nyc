@@ -161,6 +161,12 @@ a:hover {
   color: white;
 }
 
+.hr-divider {
+  background-image: url("../assets//divider.svg");
+  border: 0;
+  height: 4px;
+}
+
 .organizers-ul {
   display: flex;
   list-style: none;

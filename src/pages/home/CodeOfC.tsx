@@ -1,7 +1,7 @@
 import * as React from "react";
+import Divider from "../../components/Divider";
 import Section from "../../components/Section";
 import TextGroup from "../../components/TextGroup";
-import divider from "../../assets/divider.svg";
 
 export default () => {
   return (
@@ -64,7 +64,7 @@ export default () => {
           </p>
         </TextGroup>
       </Section>
-      <img src={divider} style={{ width: "100vw" }} />
+      <Divider />
     </React.Fragment>
   );
 };
