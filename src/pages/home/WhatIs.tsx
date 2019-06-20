@@ -19,7 +19,10 @@ export default () => {
               everyone deserves to be treated with respect. We all deserve a
               safe, judgement free place to congregate—online, and in person.
             </p>
-            <p>Please see our Code of Conduct for complete details.</p>
+            <p>
+              Please see our <a href="#code_of_conduct">code of conduct </a> for
+              complete details.
+            </p>
           </TextGroup>
         )}
       />

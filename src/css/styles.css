@@ -97,10 +97,15 @@ a:hover {
 }
 
 .cfp-submit-link {
+  color: var(--color-button-text);
   background-color: var( --color-light-grey);
   font-size: 14px;
-  padding: 15px;
+  padding: 10px 15px;
   text-decoration: none;
+}
+
+.cfp-submit-link:hover {
+  opacity: .75;
 }
 
 .footer-container {

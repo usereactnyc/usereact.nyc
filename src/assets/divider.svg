@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="6px" viewBox="0 0 1440 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>divider</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="14.0990088%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#618EFB" offset="0%"></stop>
+            <stop stop-color="#61DAFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop_useReact" transform="translate(0.000000, -3402.000000)" fill="url(#linearGradient-1)">
+            <g id="code-of-conduct" transform="translate(0.000000, 1910.000000)">
+                <rect id="divider" x="0" y="1492" width="1445" height="6"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
