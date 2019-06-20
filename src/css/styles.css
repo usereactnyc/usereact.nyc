@@ -11,6 +11,8 @@
 
   --color-twitter-blue: #55acee;
   --color-meetup-red: #ed1c40;
+  --color-twitter-blue-hover: #4C9cd9;
+  --color-meetup-red-hover: #bc1431;
 
   --color-button-text: #3a579b;
   --color-hyperlink: var(--color-purple);
@@ -106,6 +108,47 @@ a:hover {
 
 .cfp-submit-link:hover {
   opacity: .75;
+}
+
+.follow-container {
+  display: flex;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.follow-container span {
+  align-items: center;
+  color: white;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.follow-btn {
+  border-radius: 2px;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.follow-btn-meetup {
+  background-color: var(--color-meetup-red);
+}
+
+.follow-btn-meetup:hover {
+  background-color: var(--color-meetup-red-hover);
+}
+
+.follow-btn-twitter {
+  background-color: var(--color-twitter-blue);
+}
+
+.follow-btn-twitter:hover {
+  background-color: var(--color-twitter-blue-hover);
 }
 
 .footer-container {
@@ -255,6 +298,10 @@ a:hover {
 
   h3 {
     font-size: 18px;
+  }
+
+  .follow-btn {
+    font-size: .75rem;
   }
 
   .section {

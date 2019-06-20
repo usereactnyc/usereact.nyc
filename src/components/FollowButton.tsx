@@ -35,14 +35,16 @@ const FollowButton = (props: { social: "twitter" | "meetup" }) => {
   const { social } = props;
   const { css, icon, title, url, verb } = socialObject[social];
   return (
-    <a href={url} rel="noopener noreferrer" target="_blank">
-      <button className={`follow-button ${css}`}>
-        <img src={icon} />{" "}
-        <span>
-          {verb}
-          {title}
-        </span>
-      </button>
+    <a
+      href={url}
+      rel="noopener noreferrer"
+      target="_blank"
+      className={`follow-btn ${css}`}
+    >
+      <img src={icon} />
+      <span>
+        {verb} {title}
+      </span>
     </a>
   );
 };

@@ -11,26 +11,24 @@ export default () => {
       <SideBySide
         left={() => <img src={statueOfLiberty} />}
         right={() => (
-          <React.Fragment>
-            <TextGroup>
-              <h2>What is useReactNYC?</h2>
-              <p>
-                Well… you are! useReact.NYC is about the React community right
-                here in New York City. It's not about any one company or a core
-                group of individuals. We were founded on the principle that
-                everyone deserves to be treated with respect. We all deserve a
-                safe, judgement free place to congregate—online, and in person.
-              </p>
-              <p>
-                Please see our <a href="#code_of_conduct">code of conduct </a>{" "}
-                for complete details.
-              </p>
-            </TextGroup>
+          <TextGroup>
+            <h2>What is useReactNYC?</h2>
+            <p>
+              Well… you are! useReact.NYC is about the React community right
+              here in New York City. It's not about any one company or a core
+              group of individuals. We were founded on the principle that
+              everyone deserves to be treated with respect. We all deserve a
+              safe, judgement free place to congregate—online, and in person.
+            </p>
+            <p>
+              Please see our <a href="#code_of_conduct">code of conduct </a> for
+              complete details.
+            </p>
             <div className="follow-container">
               <FollowButton social="twitter" />
               <FollowButton social="meetup" />
             </div>
-          </React.Fragment>
+          </TextGroup>
         )}
       />
     </Section>
