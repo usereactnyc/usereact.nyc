@@ -131,15 +131,19 @@ a:hover {
 }
 
 .follow-btn {
+  align-items: center;
   border-radius: 2px;
-  display: flex;
+  display: inline-flex;
   font-size: 1rem;
-  justify-content: center;
-  flex-direction: row;
   margin: 5px;
-  padding: 10px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
+  white-space: nowrap;
+}
+
+.follow-btn img {
+  width: 25px;
 }
 
 .follow-btn-meetup {

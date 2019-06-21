@@ -1,6 +1,6 @@
 import * as React from "react";
-import socialMeetup from "../assets/social-meetup.svg";
-import socialTwitter from "../assets/social-twitter.svg";
+import socialMeetup from "../assets/social-meetup-silo.svg";
+import socialTwitter from "../assets/social-twitter-silo.svg";
 
 interface SocialInterface {
   meetup: SocialObject;
@@ -41,7 +41,7 @@ const FollowButton = (props: { social: "twitter" | "meetup" }) => {
       target="_blank"
       className={`follow-btn ${css}`}
     >
-      <img src={icon} />
+      <img src={icon} alt={title} />
       <span>
         {verb} {title}
       </span>
