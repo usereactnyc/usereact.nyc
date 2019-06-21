@@ -264,6 +264,7 @@ a:hover {
 /* TODO: Update Resources.tsx and SideBySide.tsx to put images above text on mobile view */
 .resources-container-desktop {
   display: block;
+  white-space: nowrap;
 }
 .resources-container-mobile {
   display: none;
@@ -285,11 +286,24 @@ a:hover {
 .section {
   padding: 120px 130px;
 }
-
-.text-group {
-  padding: 0 70px;
+.social-rules-ul {
+  list-style: none;
 }
+.social-rules-ul li::before {
+  content: "o";
+  color: var(--color-gradient-purple);
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1em;
+}
+.text-group {
+  padding: 0 40px;
+}
+
 @media only screen and (max-width: 1300px) {
+  .text-group p {
+    font-size: 18px;
+  }
   .section {
     padding: 90px 100px;
   }
@@ -298,8 +312,7 @@ a:hover {
     max-width: 444px;
   }
 }
-@media only screen and (max-width: 767px) {
-}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
     font-size: 18px;
@@ -330,7 +343,7 @@ a:hover {
   }
 
   .section {
-    padding: 70px 50px;
+    padding: 50px 50px;
   }
 
   .side-by-side img {

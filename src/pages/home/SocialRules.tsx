@@ -23,7 +23,7 @@ export default () => {
               </a>
               .
             </p>
-            <ul>
+            <ul className="social-rules-ul">
               <li>no well actually's</li>
               <li>No feigned surprise</li>
               <li>No backseat driving</li>
