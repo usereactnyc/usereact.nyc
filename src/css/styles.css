@@ -261,6 +261,14 @@ a:hover {
   color: var(--color-hyperlink-hover);
 }
 
+/* TODO: Update Resources.tsx and SideBySide.tsx to put images above text on mobile view */
+.resources-container-desktop {
+  display: block;
+}
+.resources-container-mobile {
+  display: none;
+}
+
 .side-by-side {
   display: flex;
 }
@@ -376,7 +384,6 @@ a:hover {
   .section {
     padding: 20px 40px;
   }
-
   .side-by-side {
     flex-direction: column;
     align-items: center;
@@ -384,11 +391,21 @@ a:hover {
   .code-of-conduct-container {
     background-image: url("../assets/mobile-city-illustration-07.svg");
   }
-
+  .organizers-ul p {
+    font-size: 10px;
+  }
+  .resources-container-desktop {
+    display: none;
+  }
+  .resources-container-mobile {
+    display: block;
+  }
+  .side-by-side h2 {
+    text-align: center;
+  }
   .side-by-side img {
     max-width: 350px;
   }
-
   .text-group {
     padding: 0 10px;
   }
@@ -396,5 +413,10 @@ a:hover {
 @media only screen and (max-width: 500px) {
   .side-by-side img {
     max-width: 300px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .organizers-ul p {
+    font-size: 8px;
   }
 }
