@@ -381,13 +381,6 @@ a:hover {
   }
 }
 @media only screen and (max-width: 650px) {
-  .section {
-    padding: 20px 40px;
-  }
-  .side-by-side {
-    flex-direction: column;
-    align-items: center;
-  }
   .code-of-conduct-container {
     background-image: url("../assets/mobile-city-illustration-07.svg");
   }
@@ -399,6 +392,13 @@ a:hover {
   }
   .resources-container-mobile {
     display: block;
+  }
+  .section {
+    padding: 20px 40px;
+  }
+  .side-by-side {
+    flex-direction: column;
+    align-items: center;
   }
   .side-by-side h2 {
     text-align: center;
@@ -416,7 +416,31 @@ a:hover {
   }
 }
 @media only screen and (max-width: 400px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  .cfp-container p {
+    margin: 20px;
+    padding: 10px 40px;
+  }
+  .follow-btn {
+    font-size: 0.5rem;
+  }
+  .follow-btn img {
+    height: auto;
+    width: 20px;
+  }
   .organizers-ul p {
     font-size: 8px;
+  }
+  .text-group {
+    padding: 50px 0px;
   }
 }
