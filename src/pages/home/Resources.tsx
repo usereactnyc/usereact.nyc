@@ -14,7 +14,7 @@ export default () => {
               <h2>Resources</h2>
               <h3>CONTACT ORGANIZERS</h3>
               <p>
-                Email :
+                Email : &nbsp;
                 <a href="mailto:organizers@usereact.nyc">
                   organizers@usereact.nyc
                 </a>
@@ -24,24 +24,24 @@ export default () => {
               </p>
               <h3>LOCAL RESOURCES</h3>
               <p>
-                Local Law Enforcement:{" "}
+                Local Law Enforcement :{" "}
                 <span className="span-text-link">emergency 911</span>
               </p>
               <p>
-                Local Law Enforcement:{" "}
+                Local Law Enforcement :{" "}
                 <span className="span-text-link">non-emergency 311</span>
               </p>
               <p>
-                Local sexual assault hotline:{" "}
+                Local sexual assault hotline :{" "}
                 <span className="span-text-link">800-621-HOPE(4673)</span> or
                 dial <span className="span-text-link">311</span>
               </p>
               <p>
-                Local medical:{" "}
+                Local medical :{" "}
                 <span className="span-text-link">emergency 911</span>
               </p>
               <p>
-                Local medical:{" "}
+                Local medical :{" "}
                 <span className="span-text-link">non-emergency 311</span>
               </p>
             </TextGroup>

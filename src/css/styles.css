@@ -392,6 +392,7 @@ a:hover {
   }
   .resources-container-mobile {
     display: block;
+    margin-top: 50px;
   }
   .section {
     padding: 20px 40px;
@@ -415,7 +416,7 @@ a:hover {
     max-width: 300px;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 415px) {
   h2 {
     font-size: 30px;
   }
