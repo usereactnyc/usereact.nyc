@@ -264,7 +264,6 @@ a:hover {
 /* TODO: Update Resources.tsx and SideBySide.tsx to put images above text on mobile view */
 .resources-container-desktop {
   display: block;
-  white-space: nowrap;
 }
 .resources-container-mobile {
   display: none;
@@ -301,7 +300,8 @@ a:hover {
 }
 
 @media only screen and (max-width: 1300px) {
-  .text-group p {
+  p,
+  li {
     font-size: 18px;
   }
   .section {
@@ -338,6 +338,10 @@ a:hover {
     font-size: 18px;
   }
 
+  li,
+  p {
+    font-size: 16px;
+  }
   .follow-btn {
     font-size: 0.75rem;
   }
@@ -436,6 +440,7 @@ a:hover {
   h3 {
     font-size: 16px;
   }
+  li,
   p {
     font-size: 12px;
   }

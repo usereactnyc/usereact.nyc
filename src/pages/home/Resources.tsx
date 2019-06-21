@@ -14,7 +14,7 @@ export default () => {
               <h2>Resources</h2>
               <h3>CONTACT ORGANIZERS</h3>
               <p>
-                Email : &nbsp;
+                Email :{" "}
                 <a href="mailto:organizers@usereact.nyc">
                   organizers@usereact.nyc
                 </a>
@@ -56,7 +56,7 @@ export default () => {
               <h2>Resources</h2>
               <h3>CONTACT ORGANIZERS</h3>
               <p>
-                Email :
+                Email :{" "}
                 <a href="mailto:organizers@usereact.nyc">
                   organizers@usereact.nyc
                 </a>
