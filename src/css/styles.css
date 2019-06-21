@@ -11,7 +11,7 @@
 
   --color-twitter-blue: #55acee;
   --color-meetup-red: #ed1c40;
-  --color-twitter-blue-hover: #4C9cd9;
+  --color-twitter-blue-hover: #4c9cd9;
   --color-meetup-red-hover: #bc1431;
 
   --color-button-text: #3a579b;
@@ -85,7 +85,7 @@ a:hover {
 .cfp-container {
   align-items: center;
   background-color: var(--color-gradient-purple);
-  color: var( --color-light-grey);
+  color: var(--color-light-grey);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,20 +94,27 @@ a:hover {
 }
 
 .cfp-container h2 {
-  color: var( --color-light-grey);
+  color: var(--color-light-grey);
   margin-bottom: -15px;
 }
 
 .cfp-submit-link {
   color: var(--color-button-text);
-  background-color: var( --color-light-grey);
+  background-color: var(--color-light-grey);
   font-size: 14px;
   padding: 10px 15px;
   text-decoration: none;
 }
 
 .cfp-submit-link:hover {
-  opacity: .75;
+  opacity: 0.75;
+}
+
+.code-of-conduct-container {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 90vw auto;
+  background-image: url("../assets/cropped_city-01.svg");
 }
 
 .follow-container {
@@ -154,7 +161,11 @@ a:hover {
 .footer-container {
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, var(--color-gradient-blue), var(--color-gradient-purple));
+  background: linear-gradient(
+    to right,
+    var(--color-gradient-blue),
+    var(--color-gradient-purple)
+  );
   display: flex;
   flex-direction: column;
   min-height: 150px;
@@ -164,7 +175,7 @@ a:hover {
 
 .footer-container img {
   padding: 10px;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
 .footer-container img:hover {
@@ -208,6 +219,7 @@ a:hover {
   background-image: url("../assets//divider.svg");
   border: 0;
   height: 4px;
+  margin: 0;
 }
 
 .organizers-ul {
@@ -228,7 +240,7 @@ a:hover {
 
 .organizers-ul li img {
   max-width: 100%;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .organizers-ul li img:hover {
@@ -274,7 +286,8 @@ a:hover {
     max-width: 444px;
   }
 }
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
     font-size: 18px;
@@ -301,7 +314,7 @@ a:hover {
   }
 
   .follow-btn {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 
   .section {
@@ -354,7 +367,6 @@ a:hover {
   .text-group {
     padding: 0 20px;
   }
-
 }
 @media only screen and (max-width: 650px) {
   .section {
@@ -364,6 +376,9 @@ a:hover {
   .side-by-side {
     flex-direction: column;
     align-items: center;
+  }
+  .code-of-conduct-container {
+    background-image: url("../assets/mobile-city-illustration-07.svg");
   }
 
   .side-by-side img {
