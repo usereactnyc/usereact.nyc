@@ -470,6 +470,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 321px) {
+  .follow-btn {
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px 10px;
+  }
   .organizers-ul li {
     padding: 10px;
   }
