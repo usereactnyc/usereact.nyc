@@ -134,7 +134,7 @@ a:hover {
   align-items: center;
   border-radius: 2px;
   display: inline-flex;
-  font-size: 1rem;
+  font-size: 16px;
   margin: 5px;
   padding: 10px 15px;
   text-align: center;
@@ -312,6 +312,11 @@ a:hover {
     max-width: 444px;
   }
 }
+@media only screen and (max-width: 1100px) {
+  .follow-btn {
+    font-size: 14px;
+  }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
@@ -343,7 +348,7 @@ a:hover {
     font-size: 16px;
   }
   .follow-btn {
-    font-size: 0.75rem;
+    font-size: 11px;
   }
 
   .section {
@@ -450,7 +455,7 @@ a:hover {
     padding: 10px 40px;
   }
   .follow-btn {
-    font-size: 0.5rem;
+    font-size: 10px;
   }
   .follow-btn img {
     height: auto;
@@ -461,5 +466,17 @@ a:hover {
   }
   .text-group {
     padding: 50px 0px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .organizers-ul li {
+    padding: 10px;
+  }
+  .organizers-ul p {
+    font-size: 8px;
+  }
+  .text-group {
+    width: 80vw;
   }
 }
