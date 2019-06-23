@@ -1,6 +1,7 @@
 import * as React from "react";
 import SideBySide from "../../components/SideBySide";
 import statueOfLiberty from "../../assets/image-statue-of-liberty@2x.jpg";
+import FollowButton from "../../components/FollowButton";
 import Section from "../../components/Section";
 import TextGroup from "../../components/TextGroup";
 
@@ -19,7 +20,14 @@ export default () => {
               everyone deserves to be treated with respect. We all deserve a
               safe, judgement free place to congregate—online, and in person.
             </p>
-            <p>Please see our Code of Conduct for complete details.</p>
+            <p>
+              Please see our <a href="#code_of_conduct">code of conduct </a> for
+              complete details.
+            </p>
+            <div className="follow-container">
+              <FollowButton social="twitter" />
+              <FollowButton social="meetup" />
+            </div>
           </TextGroup>
         )}
       />
