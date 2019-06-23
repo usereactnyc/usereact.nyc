@@ -6,7 +6,7 @@ import TextGroup from "../../components/TextGroup";
 
 export default () => {
   return (
-    <Section id="social-rules">
+    <Section id="social-rules" className="collapse-top">
       <SideBySide
         left={() => <img src={imageOculus} />}
         right={() => (

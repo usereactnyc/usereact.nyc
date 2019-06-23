@@ -2,12 +2,14 @@ import { useWindowSize } from "react-hooks-window-size";
 
 export enum SizeClass {
   Small = "Small",
+  Medium = "Medium",
   Large = "Large"
 }
 
 const SMALL_SIZE = 768;
+const MEDIUM_SIZE = 1024;
 
-export function useSizeClass() {
+export function useLargeSize() {
   const size = useWindowSize();
-  return size.width < SMALL_SIZE ? SizeClass.Small : SizeClass.Large;
+  return size.width > MEDIUM_SIZE;
 }

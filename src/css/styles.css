@@ -240,6 +240,7 @@ a:hover {
   list-style: none;
   justify-content: space-evenly;
   text-align: center;
+  padding: 0;
 }
 
 .organizers-ul a {
@@ -273,6 +274,10 @@ a:hover {
   display: flex;
 }
 
+.side-by-side-item {
+  flex-grow: 1;
+}
+
 .side-by-side img {
   max-width: 544px;
 }
@@ -300,8 +305,49 @@ a:hover {
   text-align: left;
 }
 
-/* TODO: Standardize how we handle media queries in CSS */
-@media only screen and (max-width: 767px) {
+.collapse-top {
+  padding-top: 30px;
+}
+
+.collapse-bottom {
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .section {
+    padding: 40px;
+  }
+
+  .collapse-top {
+    padding-top: 20px;
+  }
+
+  .collapse-bottom {
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section {
+    padding: 30px;
+  }
+
+  .collapse-top {
+    padding-top: 15px;
+  }
+
+  .collapse-bottom {
+    padding-bottom: 15px;
+  }
+
+  .side-by-side {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 640px) {
   h1 {
     font-size: 40px;
   }
@@ -327,18 +373,9 @@ a:hover {
     padding: 15px;
   }
 
-  .organizers-ul {
-    padding: 0;
-  }
-
   .section {
+    max-width: 100%;
     padding: 25px 15px;
-  }
-
-  .side-by-side {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
   }
 
   .side-by-side img {
@@ -347,6 +384,7 @@ a:hover {
 
   .side-by-side-item {
     width: 100%;
+    text-align: center;
   }
 
   .text-group {
@@ -428,5 +466,11 @@ a:hover {
   }
   .primary-container {
     padding: 0;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .hero img {
+    width: 250px;
   }
 }
