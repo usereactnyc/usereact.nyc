@@ -8,7 +8,7 @@ import TextGroup from "../../components/TextGroup";
 
 export default () => {
   return (
-    <Section>
+    <Section id="organizers" className="organizers last-section">
       <TextGroup>
         <h2 className="centered-text">The Organizers</h2>
       </TextGroup>

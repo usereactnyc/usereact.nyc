@@ -7,7 +7,7 @@ export default () => {
   return (
     <React.Fragment>
       <div className="code-of-conduct-container">
-        <Section>
+        <Section id="coc">
           <TextGroup>
             <h2 className="centered-text" id="code_of_conduct">
               Code of Conduct

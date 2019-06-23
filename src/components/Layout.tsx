@@ -14,7 +14,7 @@ const Layout = (props: LayoutProps) => {
   return (
     <>
       {/* Render children pages */}
-      <div style={{ paddingBottom: 60 }}>{props.children}</div>
+      <div className="primary-container">{props.children}</div>
 
       {/* Footer */}
       <Footer />

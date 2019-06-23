@@ -6,7 +6,7 @@ import TextGroup from "../../components/TextGroup";
 
 export default () => {
   return (
-    <Section>
+    <Section id="social-rules">
       <SideBySide
         left={() => <img src={imageOculus} />}
         right={() => (
@@ -19,9 +19,8 @@ export default () => {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Recurse Center
+                Recurse Center:
               </a>
-              .
             </p>
             <ul className="social-rules-ul">
               <li>no well actually's</li>
@@ -30,7 +29,7 @@ export default () => {
               <li>No subtle-isms</li>
             </ul>
             <p>
-              For full descriptions please see RC's{" "}
+              For a full description of each social rule, please see RC’s{" "}
               <a
                 href="https://www.recurse.com/manual#sub-sec-social-rules"
                 rel="noopener noreferrer"
