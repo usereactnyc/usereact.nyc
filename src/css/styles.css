@@ -28,6 +28,10 @@ body {
   margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3 {
@@ -56,6 +60,9 @@ h3 {
   font-weight: 300;
 }
 
+.primary-container {
+  padding-bottom: 60;
+}
 .subhead {
   font-size: 28px;
 }
@@ -114,12 +121,10 @@ a:hover {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 90vw auto;
-  background-image: url("../assets/cropped_city-01.svg");
+  background-image: url("../assets/desktop-city-illustration.svg");
 }
 
 .follow-container {
-  display: flex;
-  justify-content: space-evenly;
   display: flex;
 }
 
@@ -226,6 +231,10 @@ a:hover {
   margin: 0;
 }
 
+.organizers {
+  background-color: var(--color-light-grey);
+}
+
 .organizers-ul {
   display: flex;
   list-style: none;
@@ -248,25 +257,16 @@ a:hover {
 }
 
 .organizers-ul li img:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .organizers-ul p {
   color: var(--color-grey);
-  font-size: 1rem;
   white-space: nowrap;
 }
 
 .organizers-ul p:hover {
   color: var(--color-hyperlink-hover);
-}
-
-/* TODO: Update Resources.tsx and SideBySide.tsx to put images above text on mobile view */
-.resources-container-desktop {
-  display: block;
-}
-.resources-container-mobile {
-  display: none;
 }
 
 .side-by-side {
@@ -297,40 +297,11 @@ a:hover {
 }
 .text-group {
   padding: 0 40px;
+  text-align: left;
 }
 
-@media only screen and (max-width: 1300px) {
-  p,
-  li {
-    font-size: 18px;
-  }
-  .section {
-    padding: 90px 100px;
-  }
-
-  .side-by-side img {
-    max-width: 444px;
-  }
-}
-@media only screen and (max-width: 1100px) {
-  .follow-btn {
-    font-size: 14px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  body {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-
-  .subhead,
-  h1,
-  h2,
-  h3 {
-    line-height: 1.25;
-  }
-
+/* TODO: Standardize how we handle media queries in CSS */
+@media only screen and (max-width: 767px) {
   h1 {
     font-size: 40px;
   }
@@ -343,42 +314,8 @@ a:hover {
     font-size: 18px;
   }
 
-  li,
-  p {
-    font-size: 16px;
-  }
-  .follow-btn {
-    font-size: 11px;
-  }
-
-  .section {
-    padding: 50px 50px;
-  }
-
-  .side-by-side img {
-    max-width: 333px;
-  }
-
   .subhead {
     font-size: 22px;
-  }
-
-  .text-group {
-    padding: 0 40px;
-  }
-}
-/* TODO: Standardize how we handle media queries in CSS */
-@media only screen and (max-width: 767px) {
-  h2 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  h3 {
-    font-size: 18px;
   }
 
   li,
@@ -386,102 +323,110 @@ a:hover {
     font-size: 14px;
   }
 
+  .hero-text {
+    padding: 15px;
+  }
+
   .organizers-ul {
     padding: 0;
   }
 
   .section {
-    padding: 50px 65px;
+    padding: 25px 15px;
+  }
+
+  .side-by-side {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
 
   .side-by-side img {
-    max-width: 250px;
+    width: 100%;
+  }
+
+  .side-by-side-item {
+    width: 100%;
   }
 
   .text-group {
     padding: 0 20px;
   }
-}
-@media only screen and (max-width: 650px) {
+
   .code-of-conduct-container {
     background-image: url("../assets/mobile-city-illustration-07.svg");
   }
-  .organizers-ul p {
-    font-size: 10px;
-  }
-  .resources-container-desktop {
-    display: none;
-  }
-  .resources-container-mobile {
+
+  .follow-container {
     display: block;
-    margin-top: 50px;
+    width: 100%;
   }
-  .section {
-    padding: 20px 40px;
-  }
-  .side-by-side {
-    flex-direction: column;
-    align-items: center;
-  }
-  .side-by-side h2 {
-    text-align: center;
-  }
-  .side-by-side img {
-    max-width: 350px;
-  }
-  .text-group {
-    padding: 0 10px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .side-by-side img {
-    max-width: 300px;
-  }
-}
-@media only screen and (max-width: 415px) {
-  h2 {
-    font-size: 30px;
-  }
-  h3 {
+
+  .follow-btn {
+    border-radius: 2px;
+    display: inline-flex;
+    height: 50px;
+
     font-size: 16px;
-  }
-  li,
-  p {
-    font-size: 12px;
-  }
-
-  .cfp-container p {
-    margin: 20px;
-    padding: 10px 40px;
-  }
-  .follow-btn {
-    font-size: 10px;
-  }
-  .follow-btn img {
-    height: auto;
-    width: 20px;
-  }
-  .organizers-ul p {
-    font-size: 8px;
-  }
-  .text-group {
-    padding: 50px 0px;
-  }
-}
-
-@media only screen and (max-width: 321px) {
-  .follow-btn {
-    font-size: 10px;
     margin: 5px;
-    padding: 5px 10px;
+
+    padding-left: 20px;
+
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    width: 100%;
   }
-  .organizers-ul li {
-    padding: 10px;
+
+  .follow-btn img {
+    height: 25px;
+    width: auto;
   }
-  .organizers-ul p {
-    font-size: 8px;
-  }
+
   .text-group {
-    width: 80vw;
+    padding: 0;
+  }
+
+  .cfp-container {
+    padding: 0 15px;
+    min-height: 250px;
+  }
+
+  .cfp-container h2 {
+    margin: 0;
+  }
+
+  .cfp-submit-link {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .organizers-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .organizers-ul li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .organizers-ul p {
+    font-size: 20px;
+    margin: 30px 0 50px 0;
+  }
+
+  .last-section {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .primary-container {
+    padding: 0;
   }
 }

@@ -1115,6 +1115,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/classnames@^2.2.8":
+  version "2.2.8"
+  resolved "https://registry.yarnpkg.com/@types/classnames/-/classnames-2.2.8.tgz#17139e1e1104203572caa4368f6796f6225b70b4"
+  integrity sha512-3UrLzPnz8u+MMXuJTF++389IfLSQUbl5F3ry9WCxva0BKG5H/oo5NuPRXk+HrpPU1+5pVHSWhnVWRzIaFQ7QuQ==
+
 "@types/configstore@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/configstore/-/configstore-2.1.1.tgz#cd1e8553633ad3185c3f2f239ecff5d2643e92b6"
@@ -14829,6 +14834,13 @@ react-helmet@5.0.3:
     prop-types "^15.5.4"
     react-side-effect "^1.1.0"
 
+react-hooks-window-size@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-hooks-window-size/-/react-hooks-window-size-0.1.0.tgz#d5ee7001d875b62144fa33e217684159e4888feb"
+  integrity sha512-tn8eYVURHmiKecP3tBMfH7Rt40oFCIQRJ6br46Ka3ELOjxZhgT8viM1Q+AdTxNvO9iwKS+ebfy7DjwOwg1PF/w==
+  dependencies:
+    tslib "^1.9.3"
+
 react-hot-loader@^4.8.4:
   version "4.11.1"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.11.1.tgz#2cabbd0f1c8a44c28837b86d6ce28521e6d9a8ac"
@@ -17887,7 +17899,7 @@ tsconfig@^6.0.0:
     strip-bom "^3.0.0"
     strip-json-comments "^2.0.0"
 
-tslib@^1.6.0, tslib@^1.9.0:
+tslib@^1.6.0, tslib@^1.9.0, tslib@^1.9.3:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==

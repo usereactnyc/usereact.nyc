@@ -6,7 +6,7 @@ import TextGroup from "../../components/TextGroup";
 
 export default () => {
   return (
-    <section className="cfp-container">
+    <section className="cfp-container" id="cfp">
       <h2>Call for Proposals</h2>
       <p>
         Interested in speaking? Fill out this Google form and we'll get in

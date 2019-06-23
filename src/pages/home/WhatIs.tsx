@@ -7,7 +7,7 @@ import TextGroup from "../../components/TextGroup";
 
 export default () => {
   return (
-    <Section>
+    <Section id="what-is">
       <SideBySide
         left={() => <img src={statueOfLiberty} />}
         right={() => (
