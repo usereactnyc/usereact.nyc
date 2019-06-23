@@ -118,6 +118,7 @@ a:hover {
 }
 
 .code-of-conduct-container {
+  background-color: var(--color-light-grey);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 90vw auto;
