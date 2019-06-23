@@ -1,5 +1,5 @@
 import * as React from "react";
-import { useSizeClass, SizeClass } from "../helpers/screen-size";
+import { useLargeSize } from "../helpers/screen-size";
 
 interface SideBySideProps {
   left: () => React.ReactNode;
@@ -8,8 +8,8 @@ interface SideBySideProps {
 }
 
 export default ({ left, right, reverseOnMobile }: SideBySideProps) => {
-  const sizeClass = useSizeClass();
-  const shouldReverse = reverseOnMobile && sizeClass === SizeClass.Small;
+  const isLarge = useLargeSize();
+  const shouldReverse = reverseOnMobile && !isLarge;
 
   return (
     <div className="side-by-side">

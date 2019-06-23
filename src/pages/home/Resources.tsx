@@ -6,7 +6,7 @@ import TextGroup from "../../components/TextGroup";
 
 export default () => {
   return (
-    <Section id="resources">
+    <Section id="resources" className="collapse-bottom">
       <SideBySide
         reverseOnMobile={true}
         left={() => (
