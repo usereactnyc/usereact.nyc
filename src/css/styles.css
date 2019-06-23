@@ -11,6 +11,8 @@
 
   --color-twitter-blue: #55acee;
   --color-meetup-red: #ed1c40;
+  --color-twitter-blue-hover: #4c9cd9;
+  --color-meetup-red-hover: #bc1431;
 
   --color-button-text: #3a579b;
   --color-hyperlink: var(--color-purple);
@@ -83,7 +85,7 @@ a:hover {
 .cfp-container {
   align-items: center;
   background-color: var(--color-gradient-purple);
-  color: var( --color-light-grey);
+  color: var(--color-light-grey);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,21 +94,82 @@ a:hover {
 }
 
 .cfp-container h2 {
-  color: var( --color-light-grey);
+  color: var(--color-light-grey);
   margin-bottom: -15px;
 }
 
 .cfp-submit-link {
-  background-color: var( --color-light-grey);
+  color: var(--color-button-text);
+  background-color: var(--color-light-grey);
   font-size: 14px;
-  padding: 15px;
+  padding: 10px 15px;
   text-decoration: none;
+}
+
+.cfp-submit-link:hover {
+  opacity: 0.75;
+}
+
+.code-of-conduct-container {
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 90vw auto;
+  background-image: url("../assets/cropped_city-01.svg");
+}
+
+.follow-container {
+  display: flex;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.follow-container span {
+  align-items: center;
+  color: white;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.follow-btn {
+  align-items: center;
+  border-radius: 2px;
+  display: inline-flex;
+  font-size: 16px;
+  margin: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.follow-btn img {
+  width: 25px;
+}
+
+.follow-btn-meetup {
+  background-color: var(--color-meetup-red);
+}
+
+.follow-btn-meetup:hover {
+  background-color: var(--color-meetup-red-hover);
+}
+
+.follow-btn-twitter {
+  background-color: var(--color-twitter-blue);
+}
+
+.follow-btn-twitter:hover {
+  background-color: var(--color-twitter-blue-hover);
 }
 
 .footer-container {
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, var(--color-gradient-blue), var(--color-gradient-purple));
+  background: linear-gradient(
+    to right,
+    var(--color-gradient-blue),
+    var(--color-gradient-purple)
+  );
   display: flex;
   flex-direction: column;
   min-height: 150px;
@@ -116,7 +179,7 @@ a:hover {
 
 .footer-container img {
   padding: 10px;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
 .footer-container img:hover {
@@ -156,6 +219,13 @@ a:hover {
   color: white;
 }
 
+.hr-divider {
+  background-image: url("../assets//divider.svg");
+  border: 0;
+  height: 4px;
+  margin: 0;
+}
+
 .organizers-ul {
   display: flex;
   list-style: none;
@@ -174,7 +244,7 @@ a:hover {
 
 .organizers-ul li img {
   max-width: 100%;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .organizers-ul li img:hover {
@@ -189,6 +259,14 @@ a:hover {
 
 .organizers-ul p:hover {
   color: var(--color-hyperlink-hover);
+}
+
+/* TODO: Update Resources.tsx and SideBySide.tsx to put images above text on mobile view */
+.resources-container-desktop {
+  display: block;
+}
+.resources-container-mobile {
+  display: none;
 }
 
 .side-by-side {
@@ -207,11 +285,25 @@ a:hover {
 .section {
   padding: 120px 130px;
 }
-
-.text-group {
-  padding: 0 70px;
+.social-rules-ul {
+  list-style: none;
 }
+.social-rules-ul li::before {
+  content: "o";
+  color: var(--color-gradient-purple);
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1em;
+}
+.text-group {
+  padding: 0 40px;
+}
+
 @media only screen and (max-width: 1300px) {
+  p,
+  li {
+    font-size: 18px;
+  }
   .section {
     padding: 90px 100px;
   }
@@ -220,7 +312,12 @@ a:hover {
     max-width: 444px;
   }
 }
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 1100px) {
+  .follow-btn {
+    font-size: 14px;
+  }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   body {
     font-size: 18px;
@@ -246,8 +343,16 @@ a:hover {
     font-size: 18px;
   }
 
+  li,
+  p {
+    font-size: 16px;
+  }
+  .follow-btn {
+    font-size: 11px;
+  }
+
   .section {
-    padding: 70px 50px;
+    padding: 50px 50px;
   }
 
   .side-by-side img {
@@ -296,22 +401,34 @@ a:hover {
   .text-group {
     padding: 0 20px;
   }
-
 }
 @media only screen and (max-width: 650px) {
+  .code-of-conduct-container {
+    background-image: url("../assets/mobile-city-illustration-07.svg");
+  }
+  .organizers-ul p {
+    font-size: 10px;
+  }
+  .resources-container-desktop {
+    display: none;
+  }
+  .resources-container-mobile {
+    display: block;
+    margin-top: 50px;
+  }
   .section {
     padding: 20px 40px;
   }
-
   .side-by-side {
     flex-direction: column;
     align-items: center;
   }
-
+  .side-by-side h2 {
+    text-align: center;
+  }
   .side-by-side img {
     max-width: 350px;
   }
-
   .text-group {
     padding: 0 10px;
   }
@@ -319,5 +436,52 @@ a:hover {
 @media only screen and (max-width: 500px) {
   .side-by-side img {
     max-width: 300px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  li,
+  p {
+    font-size: 12px;
+  }
+
+  .cfp-container p {
+    margin: 20px;
+    padding: 10px 40px;
+  }
+  .follow-btn {
+    font-size: 10px;
+  }
+  .follow-btn img {
+    height: auto;
+    width: 20px;
+  }
+  .organizers-ul p {
+    font-size: 8px;
+  }
+  .text-group {
+    padding: 50px 0px;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .follow-btn {
+    font-size: 10px;
+    margin: 5px;
+    padding: 5px 10px;
+  }
+  .organizers-ul li {
+    padding: 10px;
+  }
+  .organizers-ul p {
+    font-size: 8px;
+  }
+  .text-group {
+    width: 80vw;
   }
 }
