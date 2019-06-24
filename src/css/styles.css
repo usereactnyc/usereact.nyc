@@ -553,3 +553,24 @@ a:hover {
     width: 250px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+
+  body {
+    background: #111;
+  }
+
+  .cfp-container {
+    background-color: #234;
+  }
+
+  .code-of-conduct-container {
+    background-color: #111;
+  }
+
+  .organizers {
+    background-color: #222;
+  }
+}
