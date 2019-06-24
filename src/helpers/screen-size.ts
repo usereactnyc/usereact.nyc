@@ -10,6 +10,11 @@ const SMALL_SIZE = 768;
 const MEDIUM_SIZE = 1024;
 
 export function useLargeSize() {
-  const size = useWindowSize();
-  return size.width > MEDIUM_SIZE;
+  // Gatsby doesn't support the window server side.
+  try {
+    const size = useWindowSize();
+    return size.width > MEDIUM_SIZE;
+  } catch (e) {
+    return true;
+  }
 }
