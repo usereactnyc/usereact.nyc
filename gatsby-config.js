@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `useReactNYC`,
-    googleVerification: `abcdefz`
+    description: `useReact.NYC is about the React community right
+      here in New York City. It's not about any one company or a core
+      group of individuals. We were founded on the principle that
+      everyone deserves to be treated with respect.`,
+    image: '/src/assets/meetup_banner.png'
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
@@ -10,13 +14,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
+        trackingId: 'UA-137044680-2',
         // Puts tracking script in the head instead of the body
-        head: false,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true
+        head: true
       }
     },
 
