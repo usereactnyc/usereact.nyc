@@ -13,6 +13,8 @@
   --color-meetup-red: #ed1c40;
   --color-twitter-blue-hover: #4c9cd9;
   --color-meetup-red-hover: #bc1431;
+  --color-opencollective-blue: #3385ff;
+  --color-opencollective-blue-hover: #0052cc;
 
   --color-button-text: #3a579b;
   --color-hyperlink: var(--color-purple);
@@ -166,6 +168,14 @@ a:hover {
 
 .follow-btn-twitter:hover {
   background-color: var(--color-twitter-blue-hover);
+}
+
+.follow-btn-opencollective {
+  background-color: var(--color-opencollective-blue);
+}
+
+.follow-btn-opencollective:hover {
+  background-color: var(--color-opencollective-blue-hover);
 }
 
 .footer-container {
