@@ -21,6 +21,10 @@
   --color-hyperlink-hover: #486aba;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: Rubik, Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -65,6 +69,7 @@ h3 {
 .primary-container {
   padding-bottom: 60;
 }
+
 .subhead {
   font-size: 28px;
 }
@@ -116,7 +121,7 @@ a:hover {
 }
 
 .cfp-submit-link:hover {
-  opacity: 0.75;
+  opacity: .75;
 }
 
 .code-of-conduct-container {
@@ -181,21 +186,20 @@ a:hover {
 .footer-container {
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
-    to right,
-    var(--color-gradient-blue),
-    var(--color-gradient-purple)
-  );
+  background: linear-gradient( to right, var(--color-gradient-blue), var(--color-gradient-purple) );
   display: flex;
   flex-direction: column;
   min-height: 150px;
   /* text-align: center; */
+  padding: 0;
+  margin: 0;
   width: 100vw;
+
 }
 
 .footer-container img {
   padding: 10px;
-  transition-duration: 0.25s;
+  transition-duration: .25s;
 }
 
 .footer-container img:hover {
@@ -236,11 +240,7 @@ a:hover {
 }
 
 .hr-divider {
-  background: linear-gradient(
-    to right,
-    var(--color-gradient-blue),
-    var(--color-gradient-purple)
-  );
+  background: linear-gradient( to right, var(--color-gradient-blue), var(--color-gradient-purple) );
   border: 0;
   height: 4px;
   margin: 0;
@@ -269,7 +269,7 @@ a:hover {
 
 .organizers-ul li img {
   max-width: 100%;
-  transition-duration: 0.5s;
+  transition-duration: .5s;
 }
 
 .organizers-ul li img:hover {
@@ -305,9 +305,11 @@ a:hover {
 .section {
   padding: 120px 130px;
 }
+
 .social-rules-ul {
   list-style: none;
 }
+
 .social-rules-ul li::before {
   content: "o";
   color: var(--color-gradient-purple);
@@ -315,6 +317,7 @@ a:hover {
   width: 1.5em;
   margin-left: -1em;
 }
+
 .text-group {
   padding: 0 40px;
   text-align: left;
@@ -356,6 +359,7 @@ a:hover {
 .slack-form input:focus {
   border: 1px solid var(--color-purple);
 }
+
 .slack-form button {
   width: 500px;
   border: 1px solid var(--color-blue);
@@ -364,7 +368,6 @@ a:hover {
   font-size: 22px;
   margin-top: 20px;
 }
-
 @media only screen and (max-width: 1280px) {
   .section {
     padding: 40px;
@@ -378,7 +381,6 @@ a:hover {
     padding-bottom: 20px;
   }
 }
-
 @media only screen and (max-width: 1024px) {
   .section {
     padding: 30px;
@@ -398,7 +400,6 @@ a:hover {
     align-items: center;
   }
 }
-
 @media only screen and (max-width: 640px) {
   h1 {
     font-size: 40px;
@@ -509,23 +510,25 @@ a:hover {
 
   .organizers-ul p {
     font-size: 20px;
-    margin: 30px 0 50px 0;
+    margin: 30px 0 50px;
   }
 
   .last-section {
     margin-bottom: 0;
     padding-bottom: 0;
   }
+
   .primary-container {
+    margin: 0;
+    max-width: 100vw;
     padding: 0;
   }
 
-  .slack-form input,
-  .slack-form button {
+  .slack-form button,
+  .slack-form input {
     width: 100%;
   }
 }
-
 @media only screen and (max-width: 350px) {
   .hero img {
     width: 250px;
