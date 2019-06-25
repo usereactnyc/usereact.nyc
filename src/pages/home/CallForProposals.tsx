@@ -13,7 +13,7 @@ export default () => {
         touch.
       </p>
       <a
-        href="https://www.google.com/forms/about/"
+        href="https://docs.google.com/forms/d/1hCYGZYr3Ozaym-JQF0suIFRVuumexEHyp3PsaiSPpYU/viewform?ts=5ca66f97"
         rel="noopener noreferrer"
         target="_blank"
         className="cfp-submit-link"
