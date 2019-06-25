@@ -8,9 +8,11 @@ import SocialRules from "./home/SocialRules";
 import Resources from "./home/Resources";
 import WhatIs from "./home/WhatIs";
 import Slack from "./home/Slack";
+import SEO from "../components/SEO";
 
 const IndexPage = (props: LayoutProps) => (
   <div>
+    <SEO />
     <Header />
     <WhatIs />
     <CallForProposals />
