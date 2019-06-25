@@ -134,6 +134,7 @@ a:hover {
 
 .follow-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .follow-container span {
