@@ -1,5 +1,4 @@
 import * as React from "react";
-import Divider from "../../components/Divider";
 import Section from "../../components/Section";
 import TextGroup from "../../components/TextGroup";
 
@@ -66,7 +65,6 @@ export default () => {
           </TextGroup>
         </Section>
       </div>
-      <Divider />
     </React.Fragment>
   );
 };
