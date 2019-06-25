@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
 import { StaticQuery, graphql } from "gatsby";
+import MeetupBanner from "../assets/meetup_banner.png";
 
 const query = graphql`
   query SEO {
@@ -9,13 +10,13 @@ const query = graphql`
         defaultTitle: title
         defaultDescription: description
         siteUrl: url
-        defaultImage: image
         twitterUsername
       }
     }
   }
 `;
 
+const defaultImage = MeetupBanner;
 const SEO = ({ title, description, image, pathname, article }: any) => (
   <StaticQuery
     query={query}
@@ -25,7 +26,6 @@ const SEO = ({ title, description, image, pathname, article }: any) => (
           defaultTitle,
           defaultDescription,
           siteUrl,
-          defaultImage,
           twitterUsername
         }
       }
