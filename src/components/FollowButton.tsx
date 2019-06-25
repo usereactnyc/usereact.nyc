@@ -1,9 +1,11 @@
 import * as React from "react";
 import socialMeetup from "../assets/social-meetup-silo.svg";
 import socialTwitter from "../assets/social-twitter-silo.svg";
+import socialOpenCollective from "../assets/social-opencollective.svg";
 
 interface SocialInterface {
   meetup: SocialObject;
+  openCollective: SocialObject;
   twitter: SocialObject;
 }
 
@@ -23,6 +25,13 @@ const socialObject: SocialInterface = {
     url: "https://www.meetup.com/useReactNYC",
     verb: "Join"
   },
+  openCollective: {
+    css: "follow-btn-opencollective",
+    icon: socialOpenCollective,
+    title: "useReact",
+    url: "https://opencollective.com/usereact",
+    verb: "Donate to"
+  },
   twitter: {
     css: "follow-btn-twitter",
     icon: socialTwitter,
@@ -31,7 +40,7 @@ const socialObject: SocialInterface = {
     verb: "Follow"
   }
 };
-const FollowButton = (props: { social: "twitter" | "meetup" }) => {
+const FollowButton = (props: { social: keyof SocialInterface }) => {
   const { social } = props;
   const { css, icon, title, url, verb } = socialObject[social];
   return (

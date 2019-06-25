@@ -27,6 +27,7 @@ export default () => {
             <div className="follow-container">
               <FollowButton social="twitter" />
               <FollowButton social="meetup" />
+              <FollowButton social="openCollective" />
             </div>
           </TextGroup>
         )}
