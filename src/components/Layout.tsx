@@ -16,7 +16,6 @@ const Layout = (props: LayoutProps) => {
       {/* Render children pages */}
       <div className="primary-container">{props.children}</div>
 
-      {/* Footer */}
       <Footer />
     </>
   );
