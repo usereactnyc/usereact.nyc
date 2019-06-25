@@ -5,7 +5,7 @@ module.exports = {
       here in New York City. It's not about any one company or a core
       group of individuals. We were founded on the principle that
       everyone deserves to be treated with respect.`,
-    url: 'https://usereact.nyc/',
+    url: 'https://usereact.nyc',
     twitterUsername: 'useReactNYC'
   },
   mapping: {
