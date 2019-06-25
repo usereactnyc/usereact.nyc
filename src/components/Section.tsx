@@ -7,7 +7,7 @@ const Section: React.FunctionComponent<{ className?: string; id: string }> = ({
   children
 }) => {
   return (
-    <section className={classNames("section", className)} id="id">
+    <section className={classNames("section", className)} id={id}>
       {children}
     </section>
   );
