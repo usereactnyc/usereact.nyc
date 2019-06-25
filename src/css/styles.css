@@ -226,7 +226,11 @@ a:hover {
 }
 
 .hr-divider {
-  background-image: url("../assets//divider.svg");
+  background: linear-gradient(
+    to right,
+    var(--color-gradient-blue),
+    var(--color-gradient-purple)
+  );
   border: 0;
   height: 4px;
   margin: 0;
@@ -312,6 +316,43 @@ a:hover {
 
 .collapse-bottom {
   padding-bottom: 30px;
+}
+
+.slack-form {
+  background-color: var(--color-purple);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.slack-form h2 {
+  color: white;
+}
+
+.slack-form input {
+  width: 300px;
+  border-radius: 5px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid var(--color-blue);
+}
+
+.slack-form input:focus {
+  border: 1px solid var(--color-purple);
+}
+.slack-form button {
+  width: 300px;
+  border: 1px solid var(--color-blue);
+  border-radius: 5px;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -467,6 +508,11 @@ a:hover {
   }
   .primary-container {
     padding: 0;
+  }
+
+  .slack-form input,
+  .slack-form button {
+    width: 100%;
   }
 }
 

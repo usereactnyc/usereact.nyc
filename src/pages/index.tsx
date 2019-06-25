@@ -7,6 +7,7 @@ import Organizers from "./home/Organizers";
 import SocialRules from "./home/SocialRules";
 import Resources from "./home/Resources";
 import WhatIs from "./home/WhatIs";
+import Slack from "./home/Slack";
 
 const IndexPage = (props: LayoutProps) => (
   <div>
@@ -14,6 +15,7 @@ const IndexPage = (props: LayoutProps) => (
     <WhatIs />
     <CallForProposals />
     <CodeOfC />
+    <Slack />
     <Resources />
     <SocialRules />
     <Organizers />

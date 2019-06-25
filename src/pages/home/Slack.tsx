@@ -1,0 +1,15 @@
+import * as React from "react";
+
+export default function Slack() {
+  return (
+    <form
+      className="slack-form"
+      method="post"
+      action="/.netlify/functions/request-slack-invite"
+    >
+      <h2>Enter your email to join Our Slack!</h2>
+      <input placeholder="email" name="email" type="email" />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
