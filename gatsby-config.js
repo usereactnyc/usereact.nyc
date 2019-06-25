@@ -5,7 +5,9 @@ module.exports = {
       here in New York City. It's not about any one company or a core
       group of individuals. We were founded on the principle that
       everyone deserves to be treated with respect.`,
-    image: '/src/assets/meetup_banner.png'
+    image: '/src/assets/meetup_banner.png',
+    url: 'https://usereact.nyc',
+    twitterUsername: 'useReactNYC'
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
