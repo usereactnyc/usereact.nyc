@@ -1,5 +1,4 @@
 import * as React from "react";
-import { once, shuffle } from "lodash";
 import donavon from "../../assets/donavon@2x.png";
 import harry from "../../assets/harry@2x.png";
 import jenn from "../../assets/jenn@2x.png";
