@@ -8,7 +8,12 @@ export default function Slack() {
       action="/.netlify/functions/request-slack-invite"
     >
       <h2>Enter your email to join our Slack!</h2>
-      <input placeholder="email" name="email" type="email" />
+      <input
+        aria-label="enter email"
+        placeholder="email"
+        name="email"
+        type="email"
+      />
       <button type="submit">Submit</button>
     </form>
   );
