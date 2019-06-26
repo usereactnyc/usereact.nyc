@@ -1,4 +1,5 @@
 import * as React from "react";
+import classNames from "classnames";
 import socialMeetup from "../assets/social-meetup-silo.svg";
 import socialTwitter from "../assets/social-twitter-silo.svg";
 import socialOpenCollective from "../assets/social-opencollective.svg";
@@ -10,50 +11,48 @@ interface SocialInterface {
 }
 
 interface SocialObject {
-  css: string;
+  className: string;
   icon: string;
-  title: string;
+  socialName: string;
+  text: string;
   url: string;
-  verb: string;
 }
 
 const socialObject: SocialInterface = {
   meetup: {
-    css: "follow-btn-meetup",
+    className: "follow-btn-meetup",
     icon: socialMeetup,
-    title: "useReactNYC",
-    url: "https://www.meetup.com/useReactNYC",
-    verb: "Join"
+    socialName: "Meetup",
+    text: "Join useReactNYC",
+    url: "https://www.meetup.com/useReactNYC"
   },
   openCollective: {
-    css: "follow-btn-opencollective",
+    className: "follow-btn-opencollective",
     icon: socialOpenCollective,
-    title: "useReact",
-    url: "https://opencollective.com/usereact",
-    verb: "Donate to"
+    socialName: "Open Collective",
+    text: "Donate to useReact",
+    url: "https://opencollective.com/usereact"
   },
   twitter: {
-    css: "follow-btn-twitter",
+    className: "follow-btn-twitter",
     icon: socialTwitter,
-    title: "@useReactNYC",
-    url: "https://twitter.com/useReactnyc",
-    verb: "Follow"
+    socialName: "Twitter",
+    text: "Follow @useReactNYC",
+    url: "https://twitter.com/useReactnyc"
   }
 };
 const FollowButton = (props: { social: keyof SocialInterface }) => {
   const { social } = props;
-  const { css, icon, title, url, verb } = socialObject[social];
+  const { className, icon, socialName, text, url } = socialObject[social];
   return (
     <a
       href={url}
       rel="noopener noreferrer"
       target="_blank"
-      className={`follow-btn ${css}`}
+      className={classNames("follow-btn", className)}
     >
-      <img src={icon} alt={title} />
-      <span>
-        {verb} {title}
-      </span>
+      <img src={icon} className="follow-btn-image" alt={`${socialName} logo`} />
+      <span>{text}</span>
     </a>
   );
 };
