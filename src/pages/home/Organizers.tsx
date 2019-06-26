@@ -53,7 +53,7 @@ export default () => {
       </TextGroup>
       <ul className="organizers-ul">
         {organizers.map((organizer) => (
-          <Organizer {...organizer} key={organizer.twitter} />
+          <Organizer {...organizer} key={organizer.image} />
         ))}
       </ul>
     </Section>
