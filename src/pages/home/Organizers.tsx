@@ -1,5 +1,5 @@
 import * as React from "react";
-import { shuffle } from "lodash";
+import { once, shuffle } from "lodash";
 import donavon from "../../assets/donavon@2x.png";
 import harry from "../../assets/harry@2x.png";
 import jenn from "../../assets/jenn@2x.png";
@@ -12,7 +12,7 @@ type Organizer = {
   image: string;
   name: string;
 };
-const Organizers: Organizer[] = shuffle([
+const Organizers: Organizer[] = [
   {
     image: donavon,
     name: "Donavon West",
@@ -33,7 +33,11 @@ const Organizers: Organizer[] = shuffle([
     name: "Matthew Gerstman",
     twitter: "MatthewGerstman"
   }
-]);
+];
+
+const getOrganizers = once(() => {
+  return shuffle(Organizers);
+});
 
 export default () => {
   return (
@@ -42,7 +46,7 @@ export default () => {
         <h2 className="centered-text">The Organizers</h2>
       </TextGroup>
       <ul className="organizers-ul">
-        {Organizers.map((organizer) => (
+        {getOrganizers().map((organizer) => (
           <Organizer {...organizer} key={organizer.twitter} />
         ))}
       </ul>
