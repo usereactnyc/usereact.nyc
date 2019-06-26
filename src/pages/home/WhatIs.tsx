@@ -21,7 +21,7 @@ export default () => {
               safe, judgement free place to congregate—online, and in person.
             </p>
             <p>
-              Please see our <a href="#code_of_conduct">code of conduct </a> for
+              Please see our <a href="#code_of_conduct">code of conduct</a> for
               complete details.
             </p>
             <div className="follow-container">
