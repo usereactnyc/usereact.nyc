@@ -5,7 +5,7 @@ import TextGroup from "../../components/TextGroup";
 export default () => {
   return (
     <React.Fragment>
-      <div className="code-of-conduct-container">
+      <article className="code-of-conduct-container">
         <Section id="coc">
           <TextGroup>
             <h2 className="centered-text" id="code_of_conduct">
@@ -64,7 +64,7 @@ export default () => {
             </p>
           </TextGroup>
         </Section>
-      </div>
+      </article>
     </React.Fragment>
   );
 };

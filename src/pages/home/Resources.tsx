@@ -42,7 +42,7 @@ export default () => {
             </p>
           </TextGroup>
         )}
-        right={() => <img src={nycTaxiStreet} />}
+        right={() => <img src={nycTaxiStreet} alt="Taxi on Street" />}
       />
     </Section>
   );
