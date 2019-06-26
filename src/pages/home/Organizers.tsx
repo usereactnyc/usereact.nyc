@@ -35,24 +35,14 @@ const Organizers: Organizer[] = [
   }
 ];
 
-const getOrganizers = once(() => {
-  return shuffle(Organizers);
-});
-
-function useOrganizers() {
-  const [organizers] = React.useState(getOrganizers());
-  return organizers;
-}
-
 export default () => {
-  const organizers = useOrganizers();
   return (
     <Section id="organizers" className="organizers last-section">
       <TextGroup>
         <h2 className="centered-text">The Organizers</h2>
       </TextGroup>
       <ul className="organizers-ul">
-        {organizers.map((organizer) => (
+        {Organizers.map((organizer) => (
           <Organizer {...organizer} key={organizer.image} />
         ))}
       </ul>
