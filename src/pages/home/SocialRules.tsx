@@ -8,7 +8,7 @@ export default () => {
   return (
     <Section id="social-rules" className="collapse-top">
       <SideBySide
-        left={() => <img src={imageOculus} />}
+        left={() => <img src={imageOculus} alt="The Oculus Downtown" />}
         right={() => (
           <TextGroup>
             <h2>Social Rules</h2>

@@ -9,7 +9,7 @@ export default () => {
   return (
     <Section id="what-is">
       <SideBySide
-        left={() => <img src={statueOfLiberty} />}
+        left={() => <img src={statueOfLiberty} alt="Statue of Liberty" />}
         right={() => (
           <TextGroup>
             <h2>What is useReactNYC?</h2>

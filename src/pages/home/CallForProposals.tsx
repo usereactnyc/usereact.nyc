@@ -1,8 +1,4 @@
 import * as React from "react";
-import SideBySide from "../../components/SideBySide";
-import statueOfLiberty from "../../assets/image-statue-of-liberty@2x.jpg";
-import Section from "../../components/Section";
-import TextGroup from "../../components/TextGroup";
 
 export default () => {
   return (

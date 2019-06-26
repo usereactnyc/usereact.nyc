@@ -121,7 +121,7 @@ a:hover {
 }
 
 .cfp-submit-link:hover {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .code-of-conduct-container {
@@ -187,7 +187,11 @@ a:hover {
 .footer-container {
   align-items: center;
   justify-content: center;
-  background: linear-gradient( to right, var(--color-gradient-blue), var(--color-gradient-purple) );
+  background: linear-gradient(
+    to right,
+    var(--color-gradient-blue),
+    var(--color-gradient-purple)
+  );
   display: flex;
   flex-direction: column;
   min-height: 150px;
@@ -195,12 +199,11 @@ a:hover {
   padding: 0;
   margin: 0;
   width: 100vw;
-
 }
 
 .footer-container img {
   padding: 10px;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
 .footer-container img:hover {
@@ -241,7 +244,11 @@ a:hover {
 }
 
 .hr-divider {
-  background: linear-gradient( to right, var(--color-gradient-blue), var(--color-gradient-purple) );
+  background: linear-gradient(
+    to right,
+    var(--color-gradient-blue),
+    var(--color-gradient-purple)
+  );
   border: 0;
   height: 4px;
   margin: 0;
@@ -270,7 +277,7 @@ a:hover {
 
 .organizers-ul li img {
   max-width: 100%;
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
 
 .organizers-ul li img:hover {
@@ -334,7 +341,7 @@ a:hover {
 
 .slack-form {
   background-color: var(--color-purple);
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -374,7 +381,7 @@ a:hover {
 }
 
 .slack-form button:hover {
-  opacity: .75;
+  opacity: 0.75;
 }
 @media only screen and (max-width: 1280px) {
   .section {
@@ -534,7 +541,6 @@ a:hover {
   .text-group {
     padding: 0;
   }
-
 }
 @media only screen and (max-width: 350px) {
   .hero img {
