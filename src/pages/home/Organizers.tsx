@@ -59,7 +59,7 @@ function Organizer({ name, image, twitter }: Organizer) {
         target="_blank"
       >
         <div>
-          <img src={image} />
+          <img src={image} alt={`Photo of ${name}`} />
           <p>{name}</p>
         </div>
       </a>
