@@ -43,7 +43,7 @@ export default () => {
       </TextGroup>
       <ul className="organizers-ul">
         {Organizers.map((organizer) => (
-          <Organizer {...organizer} key={organizer.name} />
+          <Organizer {...organizer} key={organizer.twitter} />
         ))}
       </ul>
     </Section>
