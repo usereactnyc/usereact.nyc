@@ -32,7 +32,6 @@
     "babel-eslint": "^7.2.3",
     "change-case": "^3.0.1",
     "classnames": "^2.2.6",
-    "codeclimate-test-reporter": "^0.4.1",
     "disqus-react": "^1.0.5",
     "gatsby": "next",
     "gatsby-link": "next",
@@ -70,8 +69,6 @@
     "@storybook/addon-notes": "^3.2.10",
     "@storybook/addon-options": "^3.2.14",
     "@storybook/react": "^3.2.14",
-    "@types/enzyme": "^2.8.9",
-    "@types/jest": "^19.2.2",
     "@types/node": "^7.0.15",
     "@types/react-test-renderer": "^16.0.0",
     "@types/storybook__addon-actions": "^3.0.1",
@@ -91,10 +88,8 @@
     "eslint-plugin-react": "^7.1.0",
     "flat": "^2.0.1",
     "husky": "0.13.3",
-    "jest": "19.0.2",
     "lint-staged": "3.4.0",
     "mkdirp": "^0.5.1",
-    "plop": "^1.7.4",
     "raw-loader": "^0.5.1",
     "react-addons-test-utils": "^15.5.1",
     "react-test-renderer": "16",
@@ -104,7 +99,6 @@
     "stylelint": "^7.10.1",
     "stylelint-config-prettier": "^5.2.0",
     "stylelint-config-standard": "^16.0.0",
-    "ts-jest": "19.0.8",
     "ts-lint": "4.5.1",
     "xo": "^0.18.1"
   },
@@ -112,32 +106,6 @@
     "gatsby",
     "starter"
   ],
-  "jest": {
-    "globals": {
-      "__LINK_PREFIX__": "",
-      "__PREFIX_LINKS__": ""
-    },
-    "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/templates/",
-      "/.cache"
-    ],
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js"
-    ],
-    "collectCoverage": true,
-    "coverageReporters": [
-      "lcov",
-      "text",
-      "html"
-    ]
-  },
   "lint-staged": {
     "*.{ts,tsx}": [
       "tslint --fix",
