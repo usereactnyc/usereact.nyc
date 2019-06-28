@@ -40,6 +40,24 @@
         "talk",
         "code"
       ]
+    },
+    {
+      "login": "jcreighton",
+      "name": "Jenn Creighton",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5232812?v=4",
+      "profile": "http://www.jenncreighton.com",
+      "contributions": [
+        "maintenance",
+        "business",
+        "content",
+        "design",
+        "eventOrganizing",
+        "review",
+        "fundingFinding",
+        "ideas",
+        "talk",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
