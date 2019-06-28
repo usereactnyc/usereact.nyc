@@ -23,4 +23,5 @@ You can  <a href="https://twitter.com/useReactnyc">find us on Twitter</a>
 
 This site was built with  <a href="https://gatsbyjs.org"> <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="20px" /> </a> 
 
-🗽 
+
+🏙 🗽🍕
