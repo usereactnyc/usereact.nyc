@@ -3,7 +3,7 @@
 
 
  [![Netlify Status](https://api.netlify.com/api/v1/badges/805c38b8-da50-4cf0-8853-3db04f834ccb/deploy-status)](https://app.netlify.com/sites/priceless-meitner-a9781b/deploys) ![blazing fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)    <a href="https://gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="150px" />   
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="50px" />   
 </a> 
 
 
