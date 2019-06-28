@@ -14,7 +14,9 @@ const Layout = (props: LayoutProps) => {
   return (
     <>
       {/* Render children pages */}
-      <div className="primary-container">{props.children}</div>
+      <main role="main" className="primary-container">
+        {props.children}
+      </main>
 
       <Footer />
     </>
