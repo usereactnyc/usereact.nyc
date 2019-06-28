@@ -1,9 +1,8 @@
 ## Welcome to NY's Newest and Most Exciting React Community Meetup !
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/805c38b8-da50-4cf0-8853-3db04f834ccb/deploy-status)](https://app.netlify.com/sites/priceless-meitner-a9781b/deploys) ![blazing fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)   
 
-<img src="https://i.gyazo.com/8f5c890d7edd9613d41bb396389842ca.png" alt="Use React NYC Liberty Holding Torch" width="450" />
+<img src="https://user-images.githubusercontent.com/887639/60363483-b5363300-99b1-11e9-9e83-40cd840d8e24.png" alt="Use React NYC Liberty Holding Torch" width="450" />
 
 ### Interested in Contributing?
 
