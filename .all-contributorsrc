@@ -22,6 +22,24 @@
         "talk",
         "code"
       ]
+    },
+    {
+      "login": "matthew-gerstman",
+      "name": "Matthew Gerstman",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1471434?v=4",
+      "profile": "http://matthewgerstman.com",
+      "contributions": [
+        "maintenance",
+        "business",
+        "content",
+        "design",
+        "eventOrganizing",
+        "review",
+        "fundingFinding",
+        "ideas",
+        "talk",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
