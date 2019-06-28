@@ -58,6 +58,24 @@
         "talk",
         "code"
       ]
+    },
+    {
+      "login": "hswolff",
+      "name": "Harry Wolff",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/322576?v=4",
+      "profile": "http://hswolff.com/",
+      "contributions": [
+        "maintenance",
+        "business",
+        "content",
+        "design",
+        "eventOrganizing",
+        "review",
+        "fundingFinding",
+        "ideas",
+        "talk",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
