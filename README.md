@@ -1,4 +1,5 @@
 ## Welcome to NY's Newest and Most Exciting React Community Meetup !
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/805c38b8-da50-4cf0-8853-3db04f834ccb/deploy-status)](https://app.netlify.com/sites/priceless-meitner-a9781b/deploys) ![blazing fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)   
 
@@ -25,3 +26,15 @@ This site was built with  <a href="https://gatsbyjs.org"> <img alt="Gatsby" src=
 
 
 🏙 🗽🍕
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://donavon.com"><img src="https://avatars3.githubusercontent.com/u/887639?v=4" width="100px;" alt="Donavon West"/><br /><sub><b>Donavon West</b></sub></a><br /><a href="#maintenance-donavon" title="Maintenance">🚧</a> <a href="#business-donavon" title="Business development">💼</a> <a href="#content-donavon" title="Content">🖋</a> <a href="#design-donavon" title="Design">🎨</a> <a href="#eventOrganizing-donavon" title="Event Organizing">📋</a> <a href="#review-donavon" title="Reviewed Pull Requests">👀</a> <a href="#fundingFinding-donavon" title="Funding Finding">🔍</a> <a href="#ideas-donavon" title="Ideas, Planning, & Feedback">🤔</a> <a href="#talk-donavon" title="Talks">📢</a> <a href="https://github.com/usereactnyc/usereact.nyc/commits?author=donavon" title="Code">💻</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
