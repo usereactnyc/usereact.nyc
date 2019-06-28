@@ -1,0 +1,32 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "donavon",
+      "name": "Donavon West",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/887639?v=4",
+      "profile": "https://donavon.com",
+      "contributions": [
+        "maintenance",
+        "business",
+        "content",
+        "design",
+        "eventOrganizing",
+        "review",
+        "fundingFinding",
+        "ideas",
+        "talk",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "usereact.nyc",
+  "projectOwner": "usereactnyc",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
