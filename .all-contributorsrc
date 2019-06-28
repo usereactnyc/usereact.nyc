@@ -76,6 +76,17 @@
         "talk",
         "code"
       ]
+    },
+    {
+      "login": "NickFoden",
+      "name": "Nick Foden",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8321838?v=4",
+      "profile": "https://foden.dev",
+      "contributions": [
+        "maintenance",
+        "review",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
