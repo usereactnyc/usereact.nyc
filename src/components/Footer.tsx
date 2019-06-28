@@ -5,7 +5,7 @@ import socialOpenCollective from "../assets/social-opencollective.svg";
 
 export default () => {
   return (
-    <footer className="footer-container">
+    <footer role="contentinfo" className="footer-container">
       <div>
         <a
           href="https://twitter.com/useReactnyc"
