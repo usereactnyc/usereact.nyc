@@ -1,4 +1,4 @@
-## Welcome to the repo for New York City’s Newest and Most Exciting React Community Meetup !
+## Welcome to NY's Newest and Most Exciting React Community Meetup !
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/805c38b8-da50-4cf0-8853-3db04f834ccb/deploy-status)](https://app.netlify.com/sites/priceless-meitner-a9781b/deploys) ![blazing fast](https://img.shields.io/badge/speed-blazing%20%F0%9F%94%A5-brightgreen.svg?style=flat-square)   
 
@@ -15,7 +15,12 @@ To get started:
 * Run `yarn start` to start
 
 
-This site was built with  <a href="https://gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="20px" />   
-</a>  here in NYC 🗽
+You can  <a href="https://twitter.com/useReactnyc">find us on Twitter</a>
 
+<a href="https://www.meetup.com/useReactNYC/">Join us</a> at our next Meetup
+
+<a href="https://opencollective.com/usereact">Donate</a> to support useReactNYC
+
+This site was built with  <a href="https://gatsbyjs.org"> <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="20px" /> </a> 
+
+🗽 
