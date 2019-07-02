@@ -6,6 +6,7 @@ export default function Slack() {
       className="slack-form"
       method="post"
       action="/.netlify/functions/request-slack-invite"
+      id="slack"
     >
       <h2>Enter your email to join our Slack!</h2>
       <input
