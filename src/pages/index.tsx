@@ -8,6 +8,7 @@ import SocialRules from "./home/SocialRules";
 import Resources from "./home/Resources";
 import WhatIs from "./home/WhatIs";
 import Slack from "./home/Slack";
+import Minors from "./home/Minors";
 import SEO from "../components/SEO";
 
 const IndexPage = (props: LayoutProps) => (
@@ -19,6 +20,7 @@ const IndexPage = (props: LayoutProps) => (
     <CodeOfConduct />
     <Slack />
     <Resources />
+    <Minors />
     <SocialRules />
     <Organizers />
   </>
