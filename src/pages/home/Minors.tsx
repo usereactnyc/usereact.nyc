@@ -9,7 +9,7 @@ export default () => {
         <TextGroup>
           <p>
             If you're under the age of 18 you're welcome at our events, however
-            we require that you have a chaperon 21 or older. If that person is
+            we require that you have a chaperone 21 or older. If that person is
             not your parent/guardian, please have your parent/guardian email us
             at{" "}
             <a href="mailto:organizers@usereact.nyc">organizers@usereact.nyc</a>{" "}
