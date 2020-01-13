@@ -15,6 +15,10 @@ export default () => {
             <a href="mailto:organizers@usereact.nyc">organizers@usereact.nyc</a>{" "}
             in advance with their name.
           </p>
+          <p>
+            If the hosting company has age restrictions which override our policy,
+            we will note this on the meetup sign up page.
+          </p>
         </TextGroup>
       </section>
     </React.Fragment>
