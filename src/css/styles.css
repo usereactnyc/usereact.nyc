@@ -384,6 +384,7 @@ a:hover {
   font-size: 30px;
   box-sizing: border-box;
   border: 1px solid var(--color-blue);
+  display: inline-block;
 }
 
 .slack-form input:focus {
@@ -391,19 +392,21 @@ a:hover {
 }
 
 .slack-form button {
-  background-color: var(--color-light-grey);
+  background-color: white;
   border: 1px solid var(--color-blue);
   border-radius: 4px;
   color: var(--color-button-text);
   cursor: pointer;
   font-size: 22px;
   height: 50px;
-  margin-top: 20px;
-  width: 500px;
+  margin: 2px;
+  padding-top: 8px;
+  width: 100px;
+  display: inline-block;
 }
 
 .slack-form button:hover {
-  opacity: 0.75;
+  background-color: var(--color-light-grey);
 }
 @media only screen and (max-width: 1280px) {
   .section {
