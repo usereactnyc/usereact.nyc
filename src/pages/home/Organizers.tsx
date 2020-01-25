@@ -3,6 +3,7 @@ import donavon from "../../assets/donavon@2x.png";
 import harry from "../../assets/harry@2x.png";
 import jenn from "../../assets/jenn@2x.png";
 import matthew from "../../assets/matthew@2x.png";
+import yuraima from "../../assets/yuraima@2x.png";
 import Section from "../../components/Section";
 import TextGroup from "../../components/TextGroup";
 
@@ -31,6 +32,11 @@ const Organizers: Organizer[] = [
     image: matthew,
     name: "Matthew Gerstman",
     twitter: "MatthewGerstman"
+  },
+  {
+    image: yuraima,
+    name: "Yuraima Estevez",
+    twitter: "yurm04"
   }
 ];
 
