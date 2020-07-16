@@ -50,7 +50,7 @@
     "gatsby-transformer-sharp": "next",
     "graphql-code-generator": "^0.5.2",
     "gray-matter": "^2.1.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-helmet": "5.0.3",
