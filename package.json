@@ -48,7 +48,7 @@
     "gatsby-transformer-json": "next",
     "gatsby-transformer-remark": "next",
     "gatsby-transformer-sharp": "next",
-    "graphql-code-generator": "^0.5.2",
+    "graphql-code-generator": "^0.18.2",
     "gray-matter": "^2.1.1",
     "lodash": "^4.17.11",
     "react": "^16.4.2",
