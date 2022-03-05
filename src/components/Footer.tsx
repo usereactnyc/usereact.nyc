@@ -4,6 +4,7 @@ import socialTwitter from "../assets/social-twitter.svg";
 import socialOpenCollective from "../assets/social-opencollective.svg";
 
 export default () => {
+  const today = new Date();
   return (
     <footer role="contentinfo" className="footer-container">
       <div>
@@ -29,7 +30,7 @@ export default () => {
           <img alt="open collective" src={socialOpenCollective} />
         </a>
       </div>
-      <p className="footer-copyright">&copy; 2019 useReactNYC</p>
+      <p className="footer-copyright">&copy; {today.getFullYear()} useReactNYC</p>
     </footer>
   );
 };
