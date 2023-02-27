@@ -9,13 +9,15 @@ export default function Slack() {
       id="slack"
     >
       <h2>Enter your email to join our Slack!</h2>
-      <input
-        aria-label="enter email"
-        placeholder="email"
-        name="email"
-        type="email"
-      />
-      <button type="submit">Submit</button>
+      <div>
+        <input
+          aria-label="enter email"
+          placeholder="email"
+          name="email"
+          type="email"
+        />
+        <button type="submit">Submit</button>
+      </div>
     </form>
   );
 }
